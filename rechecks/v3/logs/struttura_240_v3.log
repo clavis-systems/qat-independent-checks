@@ -1,0 +1,5 @@
+lati XX 120 lati YY 120 stessi lati True
+max ||XX|-|YY|| 0.0
+lati con segni opposti 64
+termini ZZ 0
+costante (termine identita') []

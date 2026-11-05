@@ -1,0 +1,13 @@
+prova 0: limite -12.5515679620  minimo esatto -10.3752167289  margine 2.176e+00
+prova 1: limite -13.6973821437  minimo esatto -11.3336328638  margine 2.364e+00
+prova 2: limite -15.8309773207  minimo esatto -14.1424441702  margine 1.689e+00
+prova 3: limite -16.2644305987  minimo esatto -13.4636980390  margine 2.801e+00
+prova 4: limite -15.9262602793  minimo esatto -14.0564637954  margine 1.870e+00
+prova 5: limite -12.6888825029  minimo esatto -11.4467005952  margine 1.242e+00
+prova 6: limite -16.6849609781  minimo esatto -15.7639509366  margine 9.210e-01
+prova 7: limite -13.2051852808  minimo esatto -12.9402406010  margine 2.649e-01
+prova 8: limite -17.0842498447  minimo esatto -16.8158889100  margine 2.684e-01
+prova 9: limite -16.6632742169  minimo esatto -15.8493325113  margine 8.139e-01
+prova 10: limite -13.4223258544  minimo esatto -11.8563185589  margine 1.566e+00
+prova 11: limite -13.6148704258  minimo esatto -12.1957130457  margine 1.419e+00
+margine minimo 0.26494467985748216 -> OK

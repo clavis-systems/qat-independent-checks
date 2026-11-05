@@ -1,0 +1,33 @@
+{
+ "runs": [
+  {
+   "partenza": "stati fondamentali dei gruppi isolati",
+   "E": -85.58662506986461,
+   "giri": 4,
+   "residuo": 4.6961436665350584e-14
+  },
+  {
+   "partenza": "casuale 0",
+   "E": -85.58662506986462,
+   "giri": 4,
+   "residuo": 6.181206366922243e-14
+  },
+  {
+   "partenza": "casuale 1",
+   "E": -85.58662506986462,
+   "giri": 4,
+   "residuo": 5.508913779236758e-14
+  }
+ ],
+ "E_best": -85.58662506986462,
+ "E_ricalcolo": -85.58662506986458,
+ "diff_C2": -1.4210854715202004e-14,
+ "diff_issue": 2.842170943040401e-14,
+ "gruppi": [
+  16,
+  16,
+  16,
+  1
+ ],
+ "n_cross": 10
+}

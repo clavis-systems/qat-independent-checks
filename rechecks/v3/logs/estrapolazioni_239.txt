@@ -1,0 +1,10 @@
+ultimo sweep a M=750: -116.6055920667  differenza dalla issue (µEh): 17.053726310223283
+sweep a M decrescente:
+  M=650  E=-116.6055900032  peso scartato=5.626e-06
+  M=550  E=-116.6055776324  peso scartato=1.040e-05
+  M=450  E=-116.6055542269  peso scartato=1.862e-05
+  M=350  E=-116.6055098403  peso scartato=3.690e-05
+lineare, 2 punti (M>=550): E0=-116.6056046  issue+4.5 µEh
+lineare, 3 punti (M>=450): E0=-116.6056059  issue+3.2 µEh
+lineare, 4 punti (M>=350): E0=-116.6056038  issue+5.3 µEh
+quadratica, 4 punti: E0=-116.6056069  issue+2.2 µEh

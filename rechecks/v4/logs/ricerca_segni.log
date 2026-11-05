@@ -1,0 +1,7 @@
+gruppi [1, 16, 16, 16] termini tra gruppi 10 costante 0.0
+gruppo 0 (1 qubit): 4 scelte, 0 s
+gruppo 1 (16 qubit): 32 scelte, 39 s
+gruppo 2 (16 qubit): 128 scelte, 217 s
+gruppo 3 (16 qubit): 64 scelte, 290 s
+migliore limite (ARPACK) -85.58662506986451 segni (1, 1, 1, -1, -1, 1, 1, 1, -1, 1)
+tempo 289.8 s

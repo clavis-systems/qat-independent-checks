@@ -1,0 +1,69 @@
+Wed Nov  4 19:44:06 UTC 2026
+rotazione applicata da logs/U_er.npy | sum (ii|ii) = 12.683317243254434
+ordine orbitali: [9, 5, 7, 3, 6, 19, 18, 15, 10, 12, 13, 11, 14, 17, 16, 1, 0, 2, 8, 4]
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =      5.949 | E =    -116.3814103359 | DW = 4.43528e-07
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     13.825 | E =    -116.6016102135 | DE = -2.20e-01 | DW = 1.48616e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     18.989 | E =    -116.6050234603 | DE = -3.41e-03 | DW = 2.07485e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     23.707 | E =    -116.6051927461 | DE = -1.69e-04 | DW = 3.00336e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     28.695 | E =    -116.6052479706 | DE = -5.52e-05 | DW = 2.89746e-05
+
+Sweep =    5 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     33.527 | E =    -116.6052656978 | DE = -1.77e-05 | DW = 3.03167e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     38.363 | E =    -116.6052683092 | DE = -2.61e-06 | DW = 3.11646e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  250 | Noise =  0.00e+00 | Dav threshold =  1.00e-07
+Time elapsed =     42.787 | E =    -116.6052716047 | DE = -3.30e-06 | DW = 3.02261e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     53.511 | E =    -116.6054872403 | DE = -2.16e-04 | DW = 3.76786e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     71.145 | E =    -116.6055352659 | DE = -4.80e-05 | DW = 6.63930e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     86.444 | E =    -116.6055446227 | DE = -9.36e-06 | DW = 9.18257e-06
+
+Sweep =   11 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =    104.064 | E =    -116.6055541018 | DE = -9.48e-06 | DW = 6.17061e-06
+
+Sweep =   12 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =    120.173 | E =    -116.6055575237 | DE = -3.42e-06 | DW = 6.94211e-06
+
+Sweep =   13 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-07
+Time elapsed =    135.017 | E =    -116.6055586132 | DE = -1.09e-06 | DW = 6.17011e-06
+
+Sweep =   14 | Direction =  forward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =    169.861 | E =    -116.6055882860 | DE = -2.97e-05 | DW = 9.00791e-07
+
+Sweep =   15 | Direction = backward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =    216.294 | E =    -116.6055927144 | DE = -4.43e-06 | DW = 1.86763e-06
+
+Sweep =   16 | Direction =  forward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    267.429 | E =    -116.6055950660 | DE = -2.35e-06 | DW = 2.06338e-06
+
+Sweep =   17 | Direction = backward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    316.184 | E =    -116.6055954692 | DE = -4.03e-07 | DW = 2.10923e-06
+
+ATTENTION: DMRG is not converged to desired tolerance of 1.00000e-08
+fase1 energia -116.60559546916683 tempo 318.9314045906067
+giu M 650 E -116.60559373689676 dw 4.134770565955932e-06 tempo 367.4162390232086
+giu M 550 E -116.60558416490727 dw 7.446920474204336e-06 tempo 402.91901445388794
+giu M 450 E -116.60556553293019 dw 1.3708026972635515e-05 tempo 427.2369496822357
+giu M 350 E -116.60552727935995 dw 2.567131655292782e-05 tempo 443.31666016578674
+giu M 250 E -116.60544584830221 dw 6.115075805375633e-05 tempo 453.5136179924011
+estrapolazione E(dw->0) -116.60560137087256
+controllo base originale: E da RDM ruotate all'indietro -116.60522135693036
+controllo: E(MPS finale) -116.60522135693006 E da RDM -116.60522135693016 diff -9.947598300641403e-14 traccia 1RDM 30.000000000000032 traccia 2RDM 870.0000000000008
+FINE 461.2943081855774

@@ -1,0 +1,134 @@
+== input fingerprints (must match README)
+bd6ef31773f7b082171f73faa6c98924948e2c250b6fbec74504d64361c8c6c7  tracker/data/variational-problems/hamiltonians/2fe_2s/2fe_2s_30e_20o.fcidump
+c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566  tracker/data/variational-problems/hamiltonians/guided_sparse_ground_state_problem/49Q_v1/49Q_v1_hamiltonian.npy
+bd6ef31773f7b082171f73faa6c98924948e2c250b6fbec74504d64361c8c6c7  expected for the FCIDUMP
+c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566  expected for 49Q_v1_hamiltonian.npy
+== #240 structure
+qubit 49 | lati XX 120 lati YY 120 | stessi lati: True
+componenti del grafo XX/YY (dimensioni): [16, 16, 16, 1]
+max ||XX| - |YY|| sui lati: 0.0
+lati con segni XX e YY opposti: 64
+tipi di termini: {'Z': 48, 'XX': 120, 'YY': 120, 'X': 49, 'XZ': 40, 'ZX': 42} | termini ZZ: 0
+== #240 symmetries
+rank 97 | dimension of the commutant (Pauli operators commuting with every term): 1
+{48: 'X'}
+== #240 product state
+giro 0 E stato prodotto -85.33974593372004 tempo 11.5
+giro 1 E stato prodotto -85.58662506025725 tempo 17.4
+giro 2 E stato prodotto -85.58662506986457 tempo 23.6
+giro 3 E stato prodotto -85.58662506986461 tempo 29.5
+residuo ||H Psi - E Psi|| dello stato prodotto: 9.5367431640625e-07 (norma^2 grezza 9.094947017729282e-13 )
+ENERGIA stato prodotto autoconsistente -85.58662506986461 valore #240 -85.58662506986465 differenza 4.263256414560601e-14 tempo 29.523172855377197
+== #240 lower bound
+sha256 c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566
+qubits 49 terms 419 patch sizes [16, 16, 16, 1] inter-patch terms 10
+  inter {17: 'Z', 18: 'X'} patches [0, 1] 0.5
+  inter {23: 'Z', 28: 'X'} patches [0, 2] 0.5
+  inter {6: 'Z', 8: 'X'} patches [0, 1] 0.5
+  inter {6: 'X', 8: 'Z'} patches [0, 1] -0.5
+  inter {17: 'X', 18: 'Z'} patches [0, 1] -0.5
+  inter {30: 'X', 32: 'Z'} patches [1, 2] 0.5
+  inter {39: 'Z', 48: 'X'} patches [1, 3] 0.5
+  inter {30: 'Z', 32: 'X'} patches [1, 2] -0.5
+  inter {23: 'X', 28: 'Z'} patches [0, 2] -0.5
+  inter {47: 'Z', 48: 'X'} patches [2, 3] 0.5
+start signs [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] L -90.88682569288335
+  sweep 1 flip 3 -> L -89.26180581537527
+  sweep 1 flip 4 -> L -87.95620436891666
+  sweep 1 flip 7 -> L -86.7698200513723
+  sweep 1 flip 8 -> L -85.58662506986435
+identity H = sum R_p + C + sum B: max coefficient error 0.0 | min eigenvalue of the bonds 0.0
+patch minima (eigsh)  ['-26.86054168995476', '-26.86554168995486', '-26.860541689954736', '0.0']
+patch minima (lobpcg) ['-26.860541689954868', '-26.865541689954867', '-26.860541689954868', '0.0']
+gap to 2nd level per patch [0.009999999999909193, 0.009999999999962483, 0.009999999999926956, 0.0] | residuals [1.1479141000445624e-13, 1.1563659320278507e-13, 1.442478502484681e-13, 0.0]
+constant -5.0
+LOWER BOUND -85.58662506986435 | with LOBPCG -85.5866250698646
+sum <B> on product of patch ground states -7.549516567451066e-15 -> energy of that state -85.58662506986437
+issue #240 -85.58662506986465 | lower bound - issue 2.984279490192421e-13 | seconds 125.7 | max RSS MB 620
+== lower bound self-test
+selftest: 20 random 10-qubit instances, max(bound - exact) = -1.547e+00 (must be <= 0)
+== #248 DOCI
+controllo 8 orbitali/4 coppie: E_doci -61.39209566840036 E_secondo_codice -61.392095668400394 max diff elementi 1.7763568394002505e-13
+dimensione 15504 non zero 1178304 tempo costruzione 2.0861904621124268
+E_DOCI -116.24197243955263 residuo 6.6859090387450005e-12 tempo 2.209700584411621
+== #239 orbital localization
+giri 13 sum (ii|ii) prima 6.704261430860546 dopo 12.683317243254436
+U ortogonale: 2.7755575615628914e-15 | scarto h 3.375077994860476e-14 | scarto g 4.440892098500626e-15
+J_ii dopo: [0.739 0.731 0.852 0.852 0.483 0.483 0.737 0.732 0.484 0.484 0.456 0.456 0.442 0.442 0.456 0.456 0.85  0.85  0.85  0.851]
+== #239 DMRG (SU(2) singlet, M up to 750, 4 threads)
+rotazione applicata da ./out/U_er.npy | sum (ii|ii) = 12.683317243254434
+ordine orbitali: [9, 5, 7, 3, 6, 19, 18, 15, 10, 12, 13, 11, 14, 17, 16, 1, 0, 2, 8, 4]
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =      6.994 | E =    -116.4016611595 | DW = 7.36139e-07
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     15.011 | E =    -116.6016454735 | DE = -2.00e-01 | DW = 4.28849e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     20.868 | E =    -116.6050320014 | DE = -3.39e-03 | DW = 2.20865e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     26.257 | E =    -116.6052001145 | DE = -1.68e-04 | DW = 3.02301e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     31.925 | E =    -116.6052519314 | DE = -5.18e-05 | DW = 2.91248e-05
+
+Sweep =    5 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     37.380 | E =    -116.6052665032 | DE = -1.46e-05 | DW = 3.02312e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     42.761 | E =    -116.6052689682 | DE = -2.47e-06 | DW = 3.11996e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  250 | Noise =  0.00e+00 | Dav threshold =  1.00e-07
+Time elapsed =     47.810 | E =    -116.6052710975 | DE = -2.13e-06 | DW = 3.04667e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     62.171 | E =    -116.6054878044 | DE = -2.17e-04 | DW = 3.75450e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     82.217 | E =    -116.6055352985 | DE = -4.75e-05 | DW = 6.64988e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     99.334 | E =    -116.6055446064 | DE = -9.31e-06 | DW = 9.19716e-06
+
+Sweep =   11 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =    118.357 | E =    -116.6055540911 | DE = -9.48e-06 | DW = 6.18326e-06
+
+Sweep =   12 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =    137.644 | E =    -116.6055575566 | DE = -3.47e-06 | DW = 6.94016e-06
+
+Sweep =   13 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-07
+Time elapsed =    155.391 | E =    -116.6055586460 | DE = -1.09e-06 | DW = 6.17552e-06
+
+Sweep =   14 | Direction =  forward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =    194.330 | E =    -116.6055883194 | DE = -2.97e-05 | DW = 8.98559e-07
+
+Sweep =   15 | Direction = backward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =    242.991 | E =    -116.6055927238 | DE = -4.40e-06 | DW = 1.86441e-06
+
+Sweep =   16 | Direction =  forward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    294.933 | E =    -116.6055950712 | DE = -2.35e-06 | DW = 2.06429e-06
+
+Sweep =   17 | Direction = backward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    345.803 | E =    -116.6055954648 | DE = -3.94e-07 | DW = 2.10989e-06
+
+ATTENTION: DMRG is not converged to desired tolerance of 1.00000e-08
+fase1 energia -116.6055954648279 tempo 359.9266366958618
+giu M 650 E -116.60559373250791 dw 4.1356550447599995e-06 tempo 413.17514848709106
+giu M 550 E -116.60558416551217 dw 7.4452167439677535e-06 tempo 452.49580788612366
+giu M 450 E -116.60556553265343 dw 1.3707780089893175e-05 tempo 479.97068667411804
+giu M 350 E -116.60552727925062 dw 2.5671040748305634e-05 tempo 498.2129201889038
+giu M 250 E -116.60544584840802 dw 6.115066133567872e-05 tempo 509.44048976898193
+estrapolazione E(dw->0) -116.6056013683093
+controllo base originale: E da RDM ruotate all'indietro -116.60522135691454
+controllo: E(MPS finale) -116.60522135691464 E da RDM -116.60522135691461 diff 2.842170943040401e-14 traccia 1RDM 29.999999999999968 traccia 2RDM 869.9999999999989
+FINE 518.367467880249
+== #239 extrapolation
+lineare_2_punti_M>=550 {'E0': -116.60560568750306, 'diff_da_239_uEh': 3.432923250556996}
+lineare_3_punti_M>=450 {'E0': -116.6056060094866, 'diff_da_239_uEh': 3.110939701400639}
+lineare_4_punti_M>=350 {'E0': -116.6056070900749, 'diff_da_239_uEh': 2.0303514105535214}
+lineare_5_punti_M>=250 {'E0': -116.60560136830924, 'diff_da_239_uEh': 7.752117070936038}
+quadratica_4_punti {'E0': -116.60560523787457, 'diff_da_239_uEh': 3.882551737888207}
+variazionale_Mmax {'M': 750, 'E': -116.6055954648279, 'diff_da_239_uEh': 13.655598408490732}
+== done; outputs in ./out

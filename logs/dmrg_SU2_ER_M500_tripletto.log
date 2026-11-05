@@ -1,0 +1,48 @@
+Wed Nov  4 19:52:11 UTC 2026
+rotazione applicata da logs/U_er.npy | sum (ii|ii) = 12.683317243254434
+ordine orbitali: [9, 5, 7, 3, 6, 19, 18, 15, 10, 12, 13, 11, 14, 17, 16, 1, 0, 2, 8, 4]
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =      4.867 | E =    -116.4367465919 | DW = 3.68221e-08
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     13.584 | E =    -116.5797586145 | DE = -1.43e-01 | DW = 9.63133e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     19.418 | E =    -116.6018481930 | DE = -2.21e-02 | DW = 1.57417e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-06
+Time elapsed =     24.325 | E =    -116.6030900064 | DE = -1.24e-03 | DW = 7.34749e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     29.777 | E =    -116.6033055632 | DE = -2.16e-04 | DW = 6.70479e-05
+
+Sweep =    5 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     35.063 | E =    -116.6034474407 | DE = -1.42e-04 | DW = 7.72137e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     40.252 | E =    -116.6034599126 | DE = -1.25e-05 | DW = 7.78825e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  250 | Noise =  0.00e+00 | Dav threshold =  1.00e-07
+Time elapsed =     45.146 | E =    -116.6034860504 | DE = -2.61e-05 | DW = 7.89925e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =     59.005 | E =    -116.6039745312 | DE = -4.88e-04 | DW = 1.58151e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =     79.619 | E =    -116.6040814284 | DE = -1.07e-04 | DW = 1.25157e-05
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =     98.854 | E =    -116.6041025223 | DE = -2.11e-05 | DW = 1.51524e-05
+
+Sweep =   11 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-08
+Time elapsed =    116.923 | E =    -116.6041157682 | DE = -1.32e-05 | DW = 1.61331e-05
+
+Sweep =   12 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    138.105 | E =    -116.6041164757 | DE = -7.07e-07 | DW = 1.64072e-05
+
+Sweep =   13 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    158.953 | E =    -116.6041170141 | DE = -5.38e-07 | DW = 1.65502e-05
+
+ATTENTION: DMRG is not converged to desired tolerance of 1.00000e-08
+fase1 energia -116.60411701412337 tempo 161.60188269615173

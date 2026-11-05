@@ -1,0 +1,10 @@
+sha256 c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566
+gruppi: [16, 16, 16, 1]
+termini interni per gruppo: [136, 136, 136, 1] termini tra gruppi: 10
+partenza stati fondamentali dei gruppi isolati: E = -85.58662506986461 dopo 4 giri; residuo ||(H-E)psi|| = 4.70e-14
+partenza casuale 0: E = -85.58662506986462 dopo 4 giri; residuo ||(H-E)psi|| = 6.18e-14
+partenza casuale 1: E = -85.58662506986462 dopo 4 giri; residuo ||(H-E)psi|| = 5.51e-14
+MIGLIORE: -85.58662506986462; ricalcolo termine per termine: -85.58662506986458; diff -4.3e-14
+differenza da C2: -1.42e-14
+differenza da issue #240: 2.84e-14
+somma dei minimi dei gruppi isolati (senza termini tra gruppi): -87.0168767756536

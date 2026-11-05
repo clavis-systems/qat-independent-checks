@@ -1,0 +1,76 @@
+Parsing tracker/data/variational-problems/hamiltonians/2fe_2s/2fe_2s_30e_20o.fcidump
+norb 20 nelec 30 ecore 0.0
+ER sweep 0: obiettivo 11.9689649382 guadagno max 6.02e-01
+ER sweep 1: obiettivo 12.6611660402 guadagno max 7.45e-02
+ER sweep 2: obiettivo 12.6824837770 guadagno max 5.20e-03
+ER sweep 3: obiettivo 12.6831754679 guadagno max 8.68e-05
+ER sweep 4: obiettivo 12.6832912612 guadagno max 4.13e-05
+ER sweep 5: obiettivo 12.6833128188 guadagno max 9.12e-06
+ER sweep 6: obiettivo 12.6833165235 guadagno max 1.61e-06
+ER sweep 7: obiettivo 12.6833171270 guadagno max 2.49e-07
+ER sweep 8: obiettivo 12.6833172239 guadagno max 3.58e-08
+ER sweep 9: obiettivo 12.6833172399 guadagno max 4.93e-09
+ER sweep 10: obiettivo 12.6833172426 guadagno max 6.68e-10
+ER: obiettivo iniziale 6.704261430860546 finale 12.68331724260401 ortogonalita' 2.220446049250313e-15
+controllo trasformazione da zero: 2.886579864025407e-15 3.019806626980426e-14
+ordine gaopt: [np.int64(5), np.int64(9), np.int64(7), np.int64(3), np.int64(6), np.int64(19), np.int64(18), np.int64(15), np.int64(12), np.int64(10), np.int64(11), np.int64(13), np.int64(14), np.int64(17), np.int64(16), np.int64(1), np.int64(2), np.int64(0), np.int64(8), np.int64(4)]
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =      5.833 | E =    -116.4959476663 | DW = 2.08378e-07
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     14.821 | E =    -116.6002785398 | DE = -1.04e-01 | DW = 2.41847e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     21.618 | E =    -116.6048898288 | DE = -4.61e-03 | DW = 1.80340e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     27.763 | E =    -116.6051343020 | DE = -2.44e-04 | DW = 3.51386e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     32.990 | E =    -116.6051795695 | DE = -4.53e-05 | DW = 3.75606e-05
+
+Sweep =    5 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-05 | Dav threshold =  1.00e-07
+Time elapsed =     42.056 | E =    -116.6051987819 | DE = -1.92e-05 | DW = 3.93487e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-06 | Dav threshold =  1.00e-07
+Time elapsed =     74.592 | E =    -116.6054610786 | DE = -2.62e-04 | DW = 1.11416e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-06 | Dav threshold =  1.00e-07
+Time elapsed =    126.073 | E =    -116.6055272403 | DE = -6.62e-05 | DW = 6.31088e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-06 | Dav threshold =  1.00e-07
+Time elapsed =    188.149 | E =    -116.6055432732 | DE = -1.60e-05 | DW = 8.12577e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-06 | Dav threshold =  1.00e-07
+Time elapsed =    247.097 | E =    -116.6055469250 | DE = -3.65e-06 | DW = 8.12273e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  750 | Noise =  1.00e-07 | Dav threshold =  1.00e-09
+Time elapsed =    394.213 | E =    -116.6055824396 | DE = -3.55e-05 | DW = 1.29764e-06
+
+Sweep =   11 | Direction = backward | Bond dimension =  750 | Noise =  1.00e-07 | Dav threshold =  1.00e-09
+Time elapsed =    565.889 | E =    -116.6055890574 | DE = -6.62e-06 | DW = 2.44110e-06
+
+Sweep =   12 | Direction =  forward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    675.646 | E =    -116.6055917860 | DE = -2.73e-06 | DW = 2.65624e-06
+
+Sweep =   13 | Direction = backward | Bond dimension =  750 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    727.914 | E =    -116.6055920667 | DE = -2.81e-07 | DW = 2.68866e-06
+
+Sweep =   14 | Direction =  forward | Bond dimension =  650 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    770.582 | E =    -116.6055900032 | DE = 2.06e-06 | DW = 5.62617e-06
+
+Sweep =   15 | Direction = backward | Bond dimension =  550 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    801.800 | E =    -116.6055776324 | DE = 1.24e-05 | DW = 1.04021e-05
+
+Sweep =   16 | Direction =  forward | Bond dimension =  450 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    823.795 | E =    -116.6055542269 | DE = 2.34e-05 | DW = 1.86166e-05
+
+Sweep =   17 | Direction = backward | Bond dimension =  350 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    837.960 | E =    -116.6055098403 | DE = 4.44e-05 | DW = 3.69006e-05
+
+Traceback (most recent call last):
+  File "rechecks/v3/code/dmrg_239.py", line 72, in <module>
+    res = {"bond_dims": [int(x) for x in dm.sweep_bond_dims], "energies": [float(np.array(e).ravel()[0]) for e in dm.sweep_energies],
+                                         ^^^^^^^^^^^^^^^^^^
+AttributeError: 'block2.su2.DMRG' object has no attribute 'sweep_bond_dims'. Did you mean: 'sweep_end_site'?

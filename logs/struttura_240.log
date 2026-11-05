@@ -1,0 +1,5 @@
+qubit 49 | lati XX 120 lati YY 120 | stessi lati: True
+componenti del grafo XX/YY (dimensioni): [16, 16, 16, 1]
+max ||XX| - |YY|| sui lati: 0.0
+lati con segni XX e YY opposti: 64
+tipi di termini: {'Z': 48, 'XX': 120, 'YY': 120, 'X': 49, 'XZ': 40, 'ZX': 42} | termini ZZ: 0

@@ -1,0 +1,25 @@
+sha256 c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566
+qubits 49 terms 419 patch sizes [16, 16, 16, 1] inter-patch terms 10
+  inter {17: 'Z', 18: 'X'} patches [0, 1] 0.5
+  inter {23: 'Z', 28: 'X'} patches [0, 2] 0.5
+  inter {6: 'Z', 8: 'X'} patches [0, 1] 0.5
+  inter {6: 'X', 8: 'Z'} patches [0, 1] -0.5
+  inter {17: 'X', 18: 'Z'} patches [0, 1] -0.5
+  inter {30: 'X', 32: 'Z'} patches [1, 2] 0.5
+  inter {39: 'Z', 48: 'X'} patches [1, 3] 0.5
+  inter {30: 'Z', 32: 'X'} patches [1, 2] -0.5
+  inter {23: 'X', 28: 'Z'} patches [0, 2] -0.5
+  inter {47: 'Z', 48: 'X'} patches [2, 3] 0.5
+start signs [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] L -90.88682569288335
+  sweep 1 flip 3 -> L -89.26180581537527
+  sweep 1 flip 4 -> L -87.95620436891666
+  sweep 1 flip 7 -> L -86.7698200513723
+  sweep 1 flip 8 -> L -85.58662506986435
+identity H = sum R_p + C + sum B: max coefficient error 0.0 | min eigenvalue of the bonds 0.0
+patch minima (eigsh)  ['-26.86054168995476', '-26.86554168995486', '-26.860541689954736', '0.0']
+patch minima (lobpcg) ['-26.860541689954868', '-26.865541689954867', '-26.860541689954868', '0.0']
+gap to 2nd level per patch [0.009999999999909193, 0.009999999999962483, 0.009999999999926956, 0.0] | residuals [1.1479141000445624e-13, 1.1563659320278507e-13, 1.442478502484681e-13, 0.0]
+constant -5.0
+LOWER BOUND -85.58662506986435 | with LOBPCG -85.5866250698646
+sum <B> on product of patch ground states -7.549516567451066e-15 -> energy of that state -85.58662506986437
+issue #240 -85.58662506986465 | lower bound - issue 2.984279490192421e-13 | seconds 126.3 | max RSS MB 620

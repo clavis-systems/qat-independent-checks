@@ -1,0 +1,7 @@
+# Versions used on 4 Nov 2026 (Python 3.13)
+numpy==2.5.3
+scipy==1.18.1
+# only for the #239 DMRG (optional):
+block2==0.5.4   # latest on PyPI on 4 Nov 2026; the session that ran the DMRG did not record its exact version
+# only for rechecks/v3 (version not recorded by that session):
+pyscf

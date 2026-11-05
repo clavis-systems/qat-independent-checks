@@ -1,0 +1,14 @@
+{
+ "fcidump_sha256": "bd6ef31773f7b082171f73faa6c98924948e2c250b6fbec74504d64361c8c6c7",
+ "dimensione": 15504,
+ "E_DOCI": -116.2419724395527,
+ "residuo": 6.691015264085981e-11,
+ "controllo_piccolo": {
+  "E_doci": -61.39209566840036,
+  "E_secondo_codice": -61.392095668400394,
+  "max_diff_elementi": 1.7763568394002505e-13
+ },
+ "valore_issue_248": -116.24197244,
+ "differenza_con_248": 4.4730086301569827e-10,
+ "secondi": 2.33748197555542
+}

@@ -1,0 +1,10 @@
+gruppi [1, 16, 16, 16] termini tra gruppi 10 costante 0.0
+1) identita': errore massimo sui coefficienti 0.0
+2) autovalore minimo dei pezzi B: min 0.0 max 0.0
+   gruppo 0: denso np.float64(0.0)
+   gruppo 1: ARPACK 3 partenze ['np.float64(-26.86054168995488)', 'np.float64(-26.860541689954854)', 'np.float64(-26.86054168995474)'], residuo 1.5e-13, salto 0.0100, pivot negativi con shift lam-1e-9: non fatto, con lam+1e-9: non fatto  (n.neg, perm simmetrica)
+   gruppo 2: ARPACK 3 partenze ['np.float64(-26.865541689954902)', 'np.float64(-26.865541689954902)', 'np.float64(-26.865541689954796)'], residuo 8.2e-14, salto 0.0100, pivot negativi con shift lam-1e-9: non fatto, con lam+1e-9: non fatto  (n.neg, perm simmetrica)
+   gruppo 3: ARPACK 3 partenze ['np.float64(-26.86054168995483)', 'np.float64(-26.860541689954875)', 'np.float64(-26.860541689954914)'], residuo 9.1e-14, salto 0.0100, pivot negativi con shift lam-1e-9: non fatto, con lam+1e-9: non fatto  (n.neg, perm simmetrica)
+3) limite inferiore np.float64(-85.5866250698647)
+4) energia dello stato prodotto (limite superiore) -85.58662506986457  differenza con il limite 1.2789769243681803e-13
+tempo 8.0 s
