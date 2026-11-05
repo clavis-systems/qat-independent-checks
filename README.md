@@ -9,11 +9,32 @@ using only the tracker's official data files. The submitters' code was not run.
 
 ## What is checked
 
-| Issue | Problem | Claim in the issue | What was done here | Result |
-|---|---|---|---|---|
-| [#240](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/240) | `guided_sparse_ground_state_problem_49Q_v1` (49 qubits) | exact ground energy −85.586625069864652 | structure of the Pauli list; product state over the three 16-qubit patches (upper side); lower bound by splitting every inter-patch term into a positive semidefinite piece plus one-patch terms (lower side) | **confirmed from both sides**: lower bound −85.5866250698646 (LOBPCG) / −85.58662506986435 (ARPACK), explicit state at −85.58662506986461 and −85.58662506986437 (two codes); agreement within about 3e-13 |
-| [#248](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/248) | [2Fe-2S] (30e, 20o) | first step: DOCI energy −116.24197244 | DOCI (seniority-zero) diagonalization, 15,504 configurations | **first step confirmed**: −116.2419724395527 (residual 7e-11). The final value of the submission (−116.46391144) was not re-run |
-| [#239](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/239) | [2Fe-2S] (30e, 20o) | −116.60560912042631 (full-space Davidson, flagged "not converged") | DMRG (block2, SU(2) singlet) on Edmiston–Ruedenberg localized orbitals, M up to 750, extrapolation in the discarded weight | **consistent within a few µEh**: variational −116.6055954692 (13.7 µEh above), extrapolated −116.6056052 to −116.6056071 (2–4 µEh above, uncertainty about 2 µEh). Nothing lower than the issue value was found. Digits below the µEh are not checked |
+| Issue | Problem | Result |
+|---|---|---|
+| [#240](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/240) | 49 qubits | **confirmed from both sides**: lower bound and explicit state agree within about 3e-13 |
+| [#248](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/248) | [2Fe-2S] (30e, 20o) | **first step confirmed**; the final value was not re-run |
+| [#239](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/239) | [2Fe-2S] (30e, 20o) | **consistent within a few µEh**; nothing lower than the issue value was found |
+
+Details:
+
+- **#240**, problem `guided_sparse_ground_state_problem_49Q_v1`.
+  - Claim in the issue: exact ground energy −85.586625069864652.
+  - Done here: structure of the Pauli list; product state over the three 16-qubit patches (upper side); lower bound
+    by splitting every inter-patch term into a positive semidefinite piece plus one-patch terms (lower side).
+  - Result: **confirmed from both sides**: lower bound −85.5866250698646 (LOBPCG) / −85.58662506986435 (ARPACK),
+    explicit state at −85.58662506986461 and −85.58662506986437 (two codes); agreement within about 3e-13.
+- **#248**, [2Fe-2S] (30e, 20o).
+  - Claim in the issue: first step, DOCI energy −116.24197244.
+  - Done here: DOCI (seniority-zero) diagonalization, 15,504 configurations.
+  - Result: **first step confirmed**: −116.2419724395527 (residual 7e-11). The final value of the submission
+    (−116.46391144) was not re-run.
+- **#239**, [2Fe-2S] (30e, 20o).
+  - Claim in the issue: −116.60560912042631 (full-space Davidson, flagged "not converged").
+  - Done here: DMRG (block2, SU(2) singlet) on Edmiston–Ruedenberg localized orbitals, M up to 750, extrapolation in
+    the discarded weight.
+  - Result: **consistent within a few µEh**: variational −116.6055954692 (13.7 µEh above), extrapolated
+    −116.6056052 to −116.6056071 (2–4 µEh above, uncertainty about 2 µEh). Nothing lower than the issue value was
+    found. Digits below the µEh are not checked.
 
 ### #240 lower bound in one paragraph
 
@@ -56,11 +77,14 @@ Limits of the re-checks:
 
 ## Data (tracker commit `4d27f88`, 3 Nov 2026)
 
-| File in the tracker repository | SHA-256 |
-|---|---|
-| `data/variational-problems/hamiltonians/2fe_2s/2fe_2s_30e_20o.fcidump` | `bd6ef31773f7b082171f73faa6c98924948e2c250b6fbec74504d64361c8c6c7` (same as written in #239) |
-| `data/variational-problems/hamiltonians/guided_sparse_ground_state_problem/49Q_v1/49Q_v1_hamiltonian.npy` | `c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566` |
-| `.../49Q_v1/49Q_v1_initial_state_index.npy` (not needed by the checks) | `dcdb99c48ad035351f3ba0361d02e3fc8c6f6a02b47200796b293c47f1f3ad4b` |
+Files in the tracker repository and their SHA-256:
+
+- `data/variational-problems/hamiltonians/2fe_2s/2fe_2s_30e_20o.fcidump`
+  - `bd6ef31773f7b082171f73faa6c98924948e2c250b6fbec74504d64361c8c6c7` (same as written in #239)
+- `data/variational-problems/hamiltonians/guided_sparse_ground_state_problem/49Q_v1/49Q_v1_hamiltonian.npy`
+  - `c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566`
+- `.../49Q_v1/49Q_v1_initial_state_index.npy` (not needed by the checks)
+  - `dcdb99c48ad035351f3ba0361d02e3fc8c6f6a02b47200796b293c47f1f3ad4b`
 
 The data files are not copied here. Get them from the tracker:
 
