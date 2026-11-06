@@ -8,7 +8,7 @@ Uso: python -I prodotto_240.py HAMILTONIANA.npy OUT.json
    termini tra gruppi come campo medio degli altri; si ripete fino a convergenza). L'energia dello stato
    prodotto è esatta da calcolare (termini tra gruppi = prodotto dei valori medi) ed è un limite superiore
    all'energia fondamentale. Primo tentativo (solo stati fondamentali dei gruppi, senza ciclo): -85.1906,
-   0,396 sopra; vedi log/prodotto_240_primo_tentativo.log. Se coincide con il valore della #240, quel valore è
+   0,396 sopra; quel log non è incluso. Se coincide con il valore della #240, quel valore è
    raggiunto da uno stato esplicito; il limite inferiore NON è rifatto qui.
 """
 import json

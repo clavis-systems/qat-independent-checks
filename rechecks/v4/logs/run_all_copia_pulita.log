@@ -77,7 +77,7 @@ selftest: 20 random 10-qubit instances, max(bound - exact) = -1.547e+00 (must be
 controllo 8 orbitali/4 coppie: E_doci -61.39209566840036 E_secondo_codice -61.392095668400394 max diff elementi 1.7763568394002505e-13
 dimensione 15504 non zero 1178304 tempo costruzione 2.282228469848633
 E_DOCI -116.24197243955274 residuo 1.2462888822508006e-11 tempo 2.4214186668395996
-== done; outputs in <scratch>/pacchetto_pulito/notte_04-11/esiti/C3_completamento/pacchetto_pubblico/out
+== done; outputs in <scratch>/<clean copy>/out
 
 real	4m52.996s
 user	13m26.969s

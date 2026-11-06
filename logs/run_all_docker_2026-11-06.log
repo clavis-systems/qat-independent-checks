@@ -1,0 +1,88 @@
+Fri Nov  6 13:57:55 UTC 2026
+== pip install numpy==2.5.3 scipy==1.18.1
+Python 3.13.18
+numpy==2.5.3
+scipy==1.18.1
+== input fingerprints (the script stops here if they differ from the README)
+/t/data/variational-problems/hamiltonians/2fe_2s/2fe_2s_30e_20o.fcidump: OK
+/t/data/variational-problems/hamiltonians/guided_sparse_ground_state_problem/49Q_v1/49Q_v1_hamiltonian.npy: OK
+== #240 structure
+qubit 49 | lati XX 120 lati YY 120 | stessi lati: True
+componenti del grafo XX/YY (dimensioni): [16, 16, 16, 1]
+max ||XX| - |YY|| sui lati: 0.0
+lati con segni XX e YY opposti: 64
+tipi di termini: {'Z': 48, 'XX': 120, 'YY': 120, 'X': 49, 'XZ': 40, 'ZX': 42} | termini ZZ: 0
+== #240 symmetries
+rank 97 | dimension of the commutant (Pauli operators commuting with every term): 1
+{48: 'X'}
+== #240 product state
+giro 0 E stato prodotto -85.33974593371968 tempo 27.6
+giro 1 E stato prodotto -85.58662506025748 tempo 41.0
+giro 2 E stato prodotto -85.58662506986461 tempo 55.5
+giro 3 E stato prodotto -85.58662506986461 tempo 72.2
+residuo ||H Psi - E Psi|| dello stato prodotto: 0.0 (norma^2 grezza 0.0 )
+ENERGIA stato prodotto autoconsistente -85.58662506986461 valore #240 -85.58662506986465 differenza 4.263256414560601e-14 tempo 72.89497423171997
+== #240 lower bound
+sha256 c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566
+qubits 49 terms 419 patch sizes [16, 16, 16, 1] inter-patch terms 10
+  inter {17: 'Z', 18: 'X'} patches [0, 1] 0.5
+  inter {23: 'Z', 28: 'X'} patches [0, 2] 0.5
+  inter {6: 'Z', 8: 'X'} patches [0, 1] 0.5
+  inter {6: 'X', 8: 'Z'} patches [0, 1] -0.5
+  inter {17: 'X', 18: 'Z'} patches [0, 1] -0.5
+  inter {30: 'X', 32: 'Z'} patches [1, 2] 0.5
+  inter {39: 'Z', 48: 'X'} patches [1, 3] 0.5
+  inter {30: 'Z', 32: 'X'} patches [1, 2] -0.5
+  inter {23: 'X', 28: 'Z'} patches [0, 2] -0.5
+  inter {47: 'Z', 48: 'X'} patches [2, 3] 0.5
+start signs [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] L -90.8868256928833
+  sweep 1 flip 3 -> L -89.26180581537568
+  sweep 1 flip 4 -> L -87.95620436891681
+  sweep 1 flip 7 -> L -86.76982005137234
+  sweep 1 flip 8 -> L -85.58662506986465
+identity H = sum R_p + C + sum B: max coefficient error 0.0 | min eigenvalue of the bonds 0.0
+patch minima (eigsh)  ['-26.860541689954854', '-26.865541689954956', '-26.86054168995484', '0.0']
+patch minima (lobpcg) ['-26.86054168995488', '-26.865541689954867', '-26.86054168995487', '0.0']
+gap to 2nd level per patch [0.009999999999955378, 0.010000000000005116, 0.009999999999966036, 0.0] | residuals [5.006698548552864e-14, 1.247709632002876e-13, 4.2003903366622136e-14, 0.0]
+constant -5.0
+LOWER BOUND -85.58662506986465 | with LOBPCG -85.58662506986462
+sum <B> on product of patch ground states -1.0103029524088928e-14 -> energy of that state -85.58662506986467
+issue #240 -85.58662506986465 | lower bound - issue 0.0 | seconds 268.7 | max RSS MB 619
+== #240 lower bound, kappa 1.01
+sha256 c15ad8d74b5a41508a7cf99c389ad8a45ac50206a0eb7a992a72a3e11bf07566
+qubits 49 terms 419 patch sizes [16, 16, 16, 1] inter-patch terms 10
+  inter {17: 'Z', 18: 'X'} patches [0, 1] 0.5
+  inter {23: 'Z', 28: 'X'} patches [0, 2] 0.5
+  inter {6: 'Z', 8: 'X'} patches [0, 1] 0.5
+  inter {6: 'X', 8: 'Z'} patches [0, 1] -0.5
+  inter {17: 'X', 18: 'Z'} patches [0, 1] -0.5
+  inter {30: 'X', 32: 'Z'} patches [1, 2] 0.5
+  inter {39: 'Z', 48: 'X'} patches [1, 3] 0.5
+  inter {30: 'Z', 32: 'X'} patches [1, 2] -0.5
+  inter {23: 'X', 28: 'Z'} patches [0, 2] -0.5
+  inter {47: 'Z', 48: 'X'} patches [2, 3] 0.5
+start signs [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] L -90.93130622072137
+  sweep 1 flip 3 -> L -89.29338224824873
+  sweep 1 flip 4 -> L -87.97693118356345
+  sweep 1 flip 7 -> L -86.78016530552297
+  sweep 1 flip 8 -> L -85.58662506986445
+identity H = sum R_p + C + sum B: max coefficient error 6.661338147750939e-16 | min eigenvalue of the bonds 0.0
+patch minima (eigsh)  ['-26.8455416899548', '-26.84554168995486', '-26.845541689954793', '0.0']
+patch minima (lobpcg) ['-26.84554168995487', '-26.845541689954878', '-26.845541689954878', '0.0']
+gap to 2nd level per patch [0.00999999999971024, 0.010000000000040643, 0.009999999999962483, 0.0] | residuals [9.691164387291747e-14, 8.795126382934973e-14, 8.726542830346604e-14, 0.0]
+constant -5.05
+LOWER BOUND -85.58662506986445 | with LOBPCG -85.58662506986462
+sum <B> on product of patch ground states 4.036770917537068e-15 -> energy of that state -85.58662506986445
+issue #240 -85.58662506986465 | lower bound - issue 1.9895196601282805e-13 | seconds 310.2 | max RSS MB 619
+== lower bound self-test
+selftest: 20 random 10-qubit instances, max(bound - exact) = -1.547e+00 (must be <= 0)
+== #248 DOCI
+controllo 8 orbitali/4 coppie: E_doci -61.39209566840036 E_secondo_codice -61.392095668400394 max diff elementi 1.7763568394002505e-13
+dimensione 15504 non zero 1178304 tempo costruzione 4.127041816711426
+E_DOCI -116.24197243955291 residuo 2.605517581020971e-11 tempo 4.480344295501709
+== done; outputs in /w/out
+
+real	11m47.886s
+user	161m36.308s
+sys	0m52.982s
+exit code: 0 | wall time: 723 s

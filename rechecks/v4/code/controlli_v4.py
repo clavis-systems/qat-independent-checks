@@ -1,7 +1,7 @@
 """V4: controlli sul limite con i segni migliori (da v4_best.json).
 1) identita' H = sum_g H_g(s) + C + sum_e B_e, ricostruita sui coefficienti di Pauli
 2) ogni B_e >= 0 (autovalori della matrice 4x4)
-3) minimi dei gruppi con due metodi: ARPACK (Lanczos) e fattorizzazione LDL^T con inerzia (Sylvester)
+3) minimi dei gruppi con ARPACK (Lanczos); la fattorizzazione LDL^T con inerzia (Sylvester) gira solo con V4_INERZIA
 4) limite superiore: energia vera dello stato prodotto dei minimi dei gruppi
 """
 import sys, os, json, time, collections, runpy, functools

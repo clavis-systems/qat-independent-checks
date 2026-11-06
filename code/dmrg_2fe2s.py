@@ -4,7 +4,7 @@ Uso: python -I dmrg_2fe2s.py FCIDUMP SIMMETRIA(SU2|SZ) ORDINE(fiedler|file) THRE
 (2S = due volte lo spin totale, solo per SU2; 0 = singoletto, 2 = tripletto)
 
 - Integrali letti con il nostro lettore (leggi_fcidump.py), non con quello di block2.
-- Fase 1: sweep a M crescente (10 a M=250, 6 a M=500, con rumore), poi 4 sweep senza rumore a M massimo.
+- Fase 1: sweep a M crescente (8 a M=250, 6 a M=500, con rumore), poi 4 sweep senza rumore a M massimo.
 - Fase 2: un sweep per ogni M decrescente, senza rumore, per estrapolare l'energia rispetto al
   peso scartato (discarded weight).
 - Controllo interno: energia ricalcolata contraendo 1-RDM e 2-RDM dell'MPS finale con i nostri integrali.
