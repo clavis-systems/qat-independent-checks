@@ -66,9 +66,9 @@ are diagonalized densely, so they test the algebra of the bound but not the iter
 
 ## Independent re-checks (separate agent sessions, own code)
 
-Two more agent sessions redid the main numbers with code they wrote themselves. They knew the target values (and,
-for v4, the method in words) and were told to write their code before reading the main code; this order cannot be
-checked from the files. Their code and logs are in `rechecks/` (comments in these scripts are in Italian).
+Two more agent sessions redid the main numbers with code they wrote themselves. They knew the target values (their
+code compares with them, e.g. `rechecks/v3/code/prodotto_240.py`), v4 was also given the method in words, and both
+were told to write their code before reading the main code; this order cannot be checked from the files. Their code and logs are in `rechecks/` (comments in these scripts are in Italian).
 
 | Check | Folder | Result |
 |---|---|---|
@@ -154,7 +154,7 @@ Re-runs:
   fast checks only (`logs/run_all_docker_2026-11-06.log`): the data hashes matched; #240 lower bound
   −85.58662506986465 (ARPACK) / −85.58662506986462 (LOBPCG), with `kappa = 1.01` −85.58662506986445 /
   −85.58662506986462; product state −85.58662506986461; DOCI −116.24197243955291 (residual 2.6e-11). All are within
-  3e-13 of the values in `logs/`. The run took 12 minutes on a 16-core desktop.
+  about 3e-13 of the values in `logs/`. The run took 12 minutes.
 
 ## Versions, time and memory
 
@@ -174,7 +174,8 @@ in the logs). Times are approximate; only some are in the logs.
 | #239 DMRG, M up to 750 | `dmrg_2fe2s.py` | 461 s (518 s in the re-run) | not logged for this run (see below) |
 
 DMRG memory: `logs/memoria_dmrg.txt` is a partial memory trace of a DMRG process in the same session (it is not
-clear which run); its peak is 5.0 GB. Runs at M = 1000 used more than 13 GB and were stopped.
+clear which run); its peak is 5.0 GB. A comment in `code/dmrg_2fe2s.py` (not a log) says that at M = 1000 the run
+with noise went above 13 GB and was killed, and the run without noise reached 13.3 GB.
 
 ## Files
 
@@ -191,8 +192,9 @@ Notes:
   language of the first session); `lower_bound_240.py` and `symmetries_240.py` are in English. In code comments, C2
   and C3 are the sessions that wrote the main code, V3 and V4 the re-check sessions.
 - In the logs, paths of the machines were replaced by short placeholders: `tracker/`, `out/`, `./out/`,
-  `logs/U_er.npy`, `<scratch>/` and `rechecks/v3/code/`.
-- `prodotto_240.py` prints a residual of 9.5e-7 for the product state. It is computed as the square root of a
+  `logs/U_er.npy`, `<scratch>/`, `<clean copy>` and `rechecks/v3/code/`.
+- `prodotto_240.py` prints a residual of 9.5e-7 for the product state in `logs/prodotto_240.log` (0.0 in the
+  6 Nov run). It is computed as the square root of a
   difference of large numbers (raw value 9.1e-13), so it only shows rounding; the v3 re-check computes the residual
   directly and gets 4.7e-14.
 - The RDM energy check at the end of `logs/dmrg_SU2_ER_M750.log` (−116.6052214) refers to the final MPS after the
