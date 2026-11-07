@@ -1,0 +1,10 @@
+# 17:37:42 path ready: log2 flops unsliced 33.01, max 26.0; 3 sliced, per-slice log2 flops 30.49, max 23.0
+# 17:37:45 slice 1/8 done in 2.8s
+# 17:37:47 slice 2/8 done in 2.2s
+# 17:37:49 slice 3/8 done in 1.5s
+# 17:37:50 slice 4/8 done in 1.4s
+# 17:37:52 slice 5/8 done in 1.3s
+# 17:37:53 slice 6/8 done in 1.5s
+# 17:37:55 slice 7/8 done in 1.5s
+# 17:37:56 slice 8/8 done in 1.5s
+{"L": 3, "peephole": true, "lightcone": true, "ctg_methods": ["greedy", "labels"], "f_real": "0.8224883181962652", "f_imag": "4.917941054394248e-16", "diff_from_claim": 2.652322805829499e-13, "wall_s": 219.8, "peak_rss_MB": 486.2, "python": "3.13.18", "numpy": "2.5.4", "cotengra": "0.8.3", "opt_einsum": "3.4.0", "circuit_sha256": "4aae5089337253921cd70df470dc52b5243e0c8410b36a6bcbb43497db48db29", "n_gates": 4756, "n_merged": 1870, "n_peephole": 1132, "n_lightcone": 554, "n_cz": 214, "k": 44, "n_tensors": 1108, "n_indices": 682, "scalar": "(1+0j)", "net_hash": "ebec6f136a1d98ca", "path_method": "cotengra", "path_seed": 0, "path_time_s": 205.1, "log2_flops_unsliced": 33.01, "log2_max_unsliced": 26.0, "n_sliced": 3, "log2_flops_per_slice": 30.49, "log2_max_sliced": 23.0, "log2_flops_total": 33.49, "contract_time_s_this_session": 13.75, "slices_resumed": 0, "total_time_s": 219.6}

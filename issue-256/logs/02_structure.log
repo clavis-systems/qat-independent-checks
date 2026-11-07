@@ -1,0 +1,15 @@
+used qubits 49 [7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+edges 54 max degree 3
+S (|rx|=0.5): [7, 8, 9, 10, 17, 30, 39, 50, 57, 67, 68, 69, 70]
+F (|rx|=3pi/8): 36
+P (rz in V block): 24 [11, 12, 13, 14, 15, 18, 19, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 45, 46, 47, 48, 49] angles [0.3]
+P & S empty: True
+gates: first half 2268 V block 220 second half 2268
+(a) second half == gate-wise inverse of first half: True
+(b) first half = A then B, B == inverse(A) with rx sign flipped on S: True
+(c) A = 3 identical Trotter steps of 378 gates: True
+V block == exp(-i 0.15 X) on P, identity elsewhere (up to phase): True
+CZ per Trotter step 54
+rebuilt L=3 circuit identical to file: True
+L = 1 gates 1732
+L = 2 gates 3244

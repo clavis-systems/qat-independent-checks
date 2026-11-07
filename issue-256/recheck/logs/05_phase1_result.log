@@ -1,0 +1,7 @@
+PHASE 1 LOGGED Fri Nov  6 22:47:39     2026 (PC, UTC+1) / Fri Nov  6 21:47:39 UTC 2026 (UTC)
+No value of f obtained: full exact contraction NOT run (not feasible in budget).
+Pipeline: numpy 2.5.4? quimb 1.15.0, cotengra 0.8.3, python 3.13.18 (container).
+Cone: gates 2268->1152 (182 CZ of 324), 48 wires; simplified TN 1198 tensors, 740 inds.
+Best unsliced path (ctg greedy, 90s): log2 width 34, log10 flops 13.09 (2^34 complex entries = 275 GB, impossible in 2.5 GB).
+Sliced to width 25 (ctg labels, 300s): 65536 slices, log10 total flops 15.65 -> infeasible on 4 CPUs in <1 h.
+Validation (10 real-gate subcircuits, dense vs TN pruned/unpruned): see 02_validate_part1/2.log, max abs err ~2.8e-14.

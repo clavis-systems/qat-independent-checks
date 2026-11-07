@@ -1,0 +1,27 @@
+python 3.13.18 numpy 2.5.4 cotengra 0.8.3 opt_einsum 3.4.0 qiskit 2.6.2
+qiskit cross-parse: 4756 gates, identical to own parser: True
+
+[O72+S57,67-70+P] Q=[47, 48, 57, 58, 67, 68, 69, 70, 71, 72] obs=[72] gates=942
+  own dense      f = 0.999579650501705   (6.3s)
+  qiskit         f = 0.999579650501705   (11.8s, 942 gates)
+  tn_full        f = 0.999579650501703 +3.3e-17j  |dev|=2.3e-15  (20.6s; ops 98, tensors 196, slices 0, log2 flops 13.22)
+  tn_sliced      f = 0.999579650501703 +0.0e+00j  |dev|=1.9e-15  (21.9s; ops 98, tensors 196, slices 5, log2 flops 17.43)
+  tn_oe          f = 0.999579650501703 -5.6e-17j  |dev|=2.4e-15  (0.2s; ops 98, tensors 196, slices 0, log2 flops 13.29)
+  tn_lc_only     f = 0.999579650501702 +1.4e-16j  |dev|=3.6e-15  (20.3s; ops 236, tensors 472, slices 0, log2 flops 26.47)
+  tn_peep_only   f = 0.999579650501689 +1.9e-16j  |dev|=1.6e-14  (20.5s; ops 160, tensors 320, slices 0, log2 flops 18.56)
+  tn_raw         f = 0.999579650501692 -4.9e-16j  |dev|=1.4e-14  (22.3s; ops 306, tensors 612, slices 0, log2 flops 29.16)
+  max |dev| this case 1.60e-14
+
+[S7-10,17+P, obs=[9]] Q=[7, 8, 9, 10, 11, 12, 17, 18, 26, 27] obs=[9] gates=945
+  own dense      f = 0.967669168730681   (6.0s)
+  qiskit         f = 0.967669168730682   (12.1s, 945 gates)
+  tn_full        f = 0.967669168730678 -1.4e-16j  |dev|=3.1e-15  (47.9s; ops 171, tensors 342, slices 0, log2 flops 17.93)
+  tn_sliced      f = 0.967669168730678 -1.1e-16j  |dev|=3.1e-15  (51.8s; ops 171, tensors 342, slices 5, log2 flops 21.05)
+  tn_oe          f = 0.967669168730678 -5.6e-17j  |dev|=3.7e-15  (0.4s; ops 171, tensors 342, slices 0, log2 flops 20.89)
+  tn_lc_only     f = 0.967669168730677 +5.6e-17j  |dev|=4.0e-15  (22.8s; ops 239, tensors 478, slices 0, log2 flops 25.78)
+  tn_peep_only   f = 0.967669168730666 +4.2e-16j  |dev|=1.6e-14  (20.3s; ops 241, tensors 482, slices 0, log2 flops 22.2)
+  tn_raw         f = 0.967669168730667 +3.3e-16j  |dev|=1.4e-14  (21.2s; ops 309, tensors 618, slices 0, log2 flops 28.06)
+  max |dev| this case 1.59e-14
+
+MAX |deviation| over all cases and methods: 1.599e-14
+peak RSS MB 482.09765625

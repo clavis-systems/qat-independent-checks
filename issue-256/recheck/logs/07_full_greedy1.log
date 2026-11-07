@@ -1,0 +1,3 @@
+peepholed U ops 685 cone ops 288
+after prune: wires 46; peephole ops 1124 (cz 428), used wires 44, scalar (0.9999999999999987+4.389898833424594e-17j)
+simplified TN tensors 1098 inds 676 (13.7s)

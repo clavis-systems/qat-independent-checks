@@ -1,0 +1,16 @@
+python 3.13.18 numpy 2.5.4 cotengra 0.8.3 opt_einsum 3.4.0 qiskit 2.6.2
+qiskit cross-parse: 4756 gates, identical to own parser: True
+
+[O52+S39,50+P, k=11] Q=[29, 33, 38, 39, 48, 49, 50, 51, 52, 53, 54] obs=[52] gates=1141
+  own dense      f = 0.936388503630341   (39.2s)
+  qiskit         f = 0.936388503630341   (53.9s, 1141 gates)
+  tn_full        f = 0.936388503630335 -2.3e-16j  |dev|=6.0e-15  (60.4s; ops 191, tensors 382, slices 0, log2 flops 19.06)
+  tn_sliced      f = 0.936388503630335 -5.5e-17j  |dev|=6.2e-15  (63.2s; ops 191, tensors 382, slices 5, log2 flops 22.01)
+  tn_oe          f = 0.936388503630335 -1.8e-16j  |dev|=6.0e-15  (0.3s; ops 191, tensors 382, slices 0, log2 flops 21.63)
+  tn_lc_only     f = 0.936388503630336 -5.2e-16j  |dev|=5.5e-15  (21.5s; ops 287, tensors 574, slices 0, log2 flops 28.36)
+  tn_peep_only   f = 0.936388503630325 +1.9e-16j  |dev|=1.6e-14  (22.7s; ops 245, tensors 490, slices 0, log2 flops 21.96)
+  tn_raw         f = 0.936388503630326 +1.5e-16j  |dev|=1.5e-14  (23.6s; ops 343, tensors 686, slices 0, log2 flops 30.5)
+  max |dev| this case 1.59e-14
+
+MAX |deviation| over all cases and methods: 1.588e-14
+peak RSS MB 481.4375

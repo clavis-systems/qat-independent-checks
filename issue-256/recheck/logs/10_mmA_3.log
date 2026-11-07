@@ -1,0 +1,2 @@
+tensors 1098 sliced 8 steps 1097
+RESULT f = 0.2055140786636870 +5.255e-05j  (sum of 256 slices) wall 288s peak RSS 768 MB

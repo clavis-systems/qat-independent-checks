@@ -1,0 +1,19 @@
+python 3.13.18 numpy 2.5.4 cotengra 0.8.3 opt_einsum 3.4.0 qiskit 2.6.2
+qiskit cross-parse: 4756 gates, identical to own parser: True
+
+[ball(O),k=10 [trivial]] Q=[50, 51, 52, 53, 55, 59, 71, 72, 73, 75] obs=[52, 59, 72] gates=952
+  own dense      f = 0.999999999999972   (10.3s)
+  qiskit         f = 0.999999999999972   (17.5s, 952 gates)
+  tn_full        f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_sliced      f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_oe          f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_lc_only     f = 0.999999999999964 -1.5e-16j  |dev|=7.6e-15  (21.1s; ops 218, tensors 436, slices 0, log2 flops 14.89)
+  tn_peep_only   f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_raw         f = 0.999999999999962 +1.3e-16j  |dev|=1.0e-14  (22.0s; ops 232, tensors 464, slices 0, log2 flops 15.02)
+  max |dev| this case 2.80e-14
+
+[O52+S39,50+P] Q=[33, 38, 39, 48, 49, 50, 51, 52, 53, 54] obs=[52] gates=1016
+  own dense      f = 0.944575054711480   (8.6s)
+  qiskit         f = 0.944575054711480   (15.8s, 1016 gates)
+  tn_full        f = 0.944575054711473 +7.6e-17j  |dev|=7.7e-15  (60.1s; ops 180, tensors 360, slices 0, log2 flops 19.27)
+Terminated

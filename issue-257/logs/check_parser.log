@@ -1,0 +1,24 @@
+/d300/SU2_T20_SCV.qasm qiskit 2.6.2 ops 32070 own parser identical: True
+  2q logical gate kinds: {'dsite=1 same-chain': 9440, 'same-rung cross-chain': 2400}
+  steps found: 20 logical gates: 29680 last cut: 29680 raw ops after last cut: 0
+  final perm: output wire 2r -> chain0 of site r, 2r+1 -> chain1: True
+  initial occupations (site: n_chain0 n_chain1) for occupied sites: 1:11 3:11 5:11 7:11 9:11 11:11 13:11 15:11 17:11 19:11 21:11 23:11 25:11 27:11 29:11 31:11 33:11 35:11 37:11 39:11 41:11 43:11 45:11 47:11 49:11 51:11 53:11 55:11 57:11 59:11
+  rz(+-0.15) per step: [236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236]
+/d300/SU2_T20_MID.qasm qiskit 2.6.2 ops 32074 own parser identical: True
+  2q logical gate kinds: {'dsite=1 same-chain': 9440, 'same-rung cross-chain': 2400}
+  steps found: 20 logical gates: 29680 last cut: 29680 raw ops after last cut: 0
+  final perm: output wire 2r -> chain0 of site r, 2r+1 -> chain1: True
+  initial occupations (site: n_chain0 n_chain1) for occupied sites: 1:11 3:11 5:11 7:11 9:11 11:11 13:11 15:11 17:11 19:11 21:11 23:11 25:11 27:11 30:11 31:11 33:11 35:11 37:11 39:11 41:11 43:11 45:11 47:11 49:11 51:11 53:11 55:11 57:11 59:11
+  rz(+-0.15) per step: [236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236]
+/d12/x_100_SCV.qasm qiskit 2.6.2 ops 32070 own parser identical: True
+  2q logical gate kinds: {'dsite=1 same-chain': 9440, 'same-rung cross-chain': 2400}
+  steps found: 20 logical gates: 29680 last cut: 29680 raw ops after last cut: 0
+  final perm: output wire 2r -> chain0 of site r, 2r+1 -> chain1: True
+  initial occupations (site: n_chain0 n_chain1) for occupied sites: 1:11 3:11 5:11 7:11 9:11 11:11 13:11 15:11 17:11 19:11 21:11 23:11 25:11 27:11 29:11 31:11 33:11 35:11 37:11 39:11 41:11 43:11 45:11 47:11 49:11 51:11 53:11 55:11 57:11 59:11
+  rz(+-0.15) per step: [236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236]
+/d12/x_100_meson.qasm qiskit 2.6.2 ops 32072 own parser identical: True
+  2q logical gate kinds: {'dsite=1 same-chain': 9440, 'same-rung cross-chain': 2400}
+  steps found: 20 logical gates: 29680 last cut: 29680 raw ops after last cut: 0
+  final perm: output wire 2r -> chain0 of site r, 2r+1 -> chain1: True
+  initial occupations (site: n_chain0 n_chain1) for occupied sites: 1:11 3:11 5:11 7:11 9:11 11:11 13:11 15:11 17:11 19:11 21:11 23:11 25:11 27:11 29:10 30:10 31:11 33:11 35:11 37:11 39:11 41:11 43:11 45:11 47:11 49:11 51:11 53:11 55:11 57:11 59:11
+  rz(+-0.15) per step: [236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236, 236]

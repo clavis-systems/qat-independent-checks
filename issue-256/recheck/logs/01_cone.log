@@ -1,0 +1,8 @@
+P = [11, 12, 13, 14, 15, 18, 19, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 45, 46, 47, 48, 49] 24
+11 [[(0.699167+0.699167j), (0.105669-0.105669j)], [(0.105669-0.105669j), (0.699167+0.699167j)]]
+7 [[(0.707107+0.707107j), 0j], [0j, (0.707107+0.707107j)]]
+V == exp(-i 0.15 X) up to phase: True phase (0.7071067811865474+0.7071067811865474j)
+non-P qubits net matrix proportional to identity: True
+A gates 2268 cz 324 -> forward cone gates 1449 cz 218 support 49
+after backward prune from P: 1152 cz 182 qubits 48
+all qubits touched by A: 49

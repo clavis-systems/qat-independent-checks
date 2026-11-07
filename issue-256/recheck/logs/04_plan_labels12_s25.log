@@ -1,0 +1,5 @@
+G 1152 cz 182 wires 48
+raw TN: tensors 2118 inds 2846
+simplified TN: tensors 1198 inds 740 t=15.5s
+opt labels seed 12 log2 width 25.0 log10 flops 15.65 nslices 65536 t=330.1s
+sliced inds 16 slices 65536 log2 slice width 25.0

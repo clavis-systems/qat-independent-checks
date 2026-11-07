@@ -1,0 +1,26 @@
+=== start 2026-11-06T17:45:18Z chi=512
+{"qasm": "/d300/SU2_T20_SCV.qasm", "sha256": "1ebf7b2287fba9af08f64faa038fa0bc8035f0461261df0a0072d7ec94136566", "chi": 512, "python": "3.13.18 (main, Nov  5 2026, 07:59:38) [GCC 14.2.0]", "numpy": "2.5.4", "scipy": "1.18.1", "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.41"}
+prep 2.2s; L=60; two-site ops per step=[59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59]; conservation/unitarity worst=1.41e-17
+final layout: output wires (2r,2r+1) hold logical site r: True
+step 0 N=0.00000000 Q=60.00000000
+step  1 N=5.15459419 Q=60.000000000000 disc=0.000e+00 maxtr=0.00e+00 maxbond=16 Smax=0.214 t=0.2s tot=2.4s peakRSS=70MB mps=0MB
+step  2 N=18.90818008 Q=60.000000000000 disc=2.109e-15 maxtr=2.22e-16 maxbond=119 Smax=0.580 t=0.8s tot=3.2s peakRSS=73MB mps=2MB
+step  3 N=36.93114664 Q=60.000000000000 disc=5.995e-15 maxtr=3.33e-16 maxbond=248 Smax=0.922 t=2.1s tot=5.3s peakRSS=87MB mps=10MB
+step  4 N=54.16146191 Q=60.000000000000 disc=1.210e-14 maxtr=3.33e-16 maxbond=457 Smax=1.166 t=6.7s tot=12.3s peakRSS=119MB mps=30MB
+step  5 N=66.66918922 Q=60.000000000000 disc=1.588e-14 maxtr=3.33e-16 maxbond=512 Smax=1.391 t=12.1s tot=25.2s peakRSS=152MB mps=49MB
+step  6 N=72.65164610 Q=60.000000000000 disc=2.032e-14 maxtr=4.44e-16 maxbond=512 Smax=1.664 t=8.7s tot=34.6s peakRSS=160MB mps=49MB
+step  7 N=72.42626259 Q=60.000000000000 disc=3.009e-14 maxtr=5.55e-16 maxbond=512 Smax=1.943 t=7.8s tot=43.0s peakRSS=164MB mps=48MB
+step  8 N=67.79642039 Q=60.000000000000 disc=3.263e-13 maxtr=1.11e-14 maxbond=512 Smax=2.186 t=7.7s tot=51.3s peakRSS=164MB mps=48MB
+step  9 N=61.21970690 Q=60.000000000000 disc=1.710e-11 maxtr=5.91e-13 maxbond=512 Smax=2.412 t=7.1s tot=58.9s peakRSS=164MB mps=46MB
+step 10 N=55.02823482 Q=60.000000000000 disc=4.714e-10 maxtr=1.50e-11 maxbond=512 Smax=2.624 t=6.5s tot=66.0s peakRSS=164MB mps=46MB
+step 11 N=50.82861012 Q=60.000000000000 disc=9.783e-09 maxtr=2.90e-10 maxbond=512 Smax=2.837 t=6.8s tot=73.3s peakRSS=164MB mps=46MB
+step 12 N=49.20023802 Q=60.000000000000 disc=1.644e-07 maxtr=4.58e-09 maxbond=512 Smax=3.060 t=6.9s tot=80.8s peakRSS=164MB mps=46MB
+step 13 N=49.77798804 Q=60.000000000000 disc=1.979e-06 maxtr=5.14e-08 maxbond=512 Smax=3.284 t=7.2s tot=88.5s peakRSS=164MB mps=46MB
+step 14 N=51.65884992 Q=60.000000000000 disc=1.817e-05 maxtr=4.40e-07 maxbond=512 Smax=3.501 t=7.1s tot=96.1s peakRSS=164MB mps=46MB
+step 15 N=53.90207272 Q=60.000000000000 disc=1.288e-04 maxtr=2.87e-06 maxbond=512 Smax=3.714 t=7.5s tot=104.1s peakRSS=164MB mps=46MB
+step 16 N=55.86319256 Q=60.000000000000 disc=7.157e-04 maxtr=1.46e-05 maxbond=512 Smax=3.931 t=7.5s tot=112.2s peakRSS=164MB mps=46MB
+step 17 N=57.25495655 Q=60.000000000000 disc=3.138e-03 maxtr=5.75e-05 maxbond=512 Smax=4.155 t=6.6s tot=119.1s peakRSS=164MB mps=46MB
+step 18 N=58.02505608 Q=60.000000000000 disc=1.108e-02 maxtr=1.80e-04 maxbond=512 Smax=4.376 t=6.4s tot=125.9s peakRSS=164MB mps=46MB
+step 19 N=58.21466870 Q=60.000000000000 disc=3.206e-02 maxtr=4.59e-04 maxbond=512 Smax=4.585 t=6.4s tot=132.7s peakRSS=164MB mps=46MB
+step 20 N=57.88658863 Q=60.000000000000 disc=7.730e-02 maxtr=9.57e-04 maxbond=512 Smax=4.776 t=6.5s tot=139.7s peakRSS=164MB mps=47MB
+done; this process 140.1s; total compute incl. resumed parts 140.1s

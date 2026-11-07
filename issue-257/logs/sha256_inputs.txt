@@ -1,0 +1,4 @@
+793e62350fe2f127a741f679a158810dfeceafc56f62bd4c257ce6926786e9b2 *<work>/allegato_254/estratto/SU2_T20_MID.qasm
+1ebf7b2287fba9af08f64faa038fa0bc8035f0461261df0a0072d7ec94136566 *<work>/allegato_254/estratto/SU2_T20_SCV.qasm
+af269dd7aeacfe6c9fef00bdab3bd1d0a641f5ee99be67c56ebf73a15791b6da *<work>/tracker/data/observable-estimations/circuit-models/su2_hadron_dynamics_lsh/x_100_SCV.qasm
+28b3d82a2572dac60110c94a0f58a945a117d414e94446866e0d87cc5121b4f9 *<work>/tracker/data/observable-estimations/circuit-models/su2_hadron_dynamics_lsh/x_100_meson.qasm

@@ -1,0 +1,10 @@
+sector k=2 wires=[0, 2] dim=7140: max |n_sector - n_mps| per step: 1.4e-14 2.7e-14 3.5e-14 3.9e-14 4.1e-14 4.0e-14 4.3e-14 4.8e-14 5.0e-14 4.9e-14 4.8e-14 4.9e-14 4.9e-14 5.4e-14 5.8e-14 6.2e-14 6.5e-14 6.7e-14 6.7e-14 6.7e-14
+   overall 6.68e-14; norm 0.999999999999710; discarded 8.9e-16; sector 0.8s mps 1.1s; final total n=1.999999999999
+sector k=3 wires=[57, 59, 61] dim=280840: max |n_sector - n_mps| per step: 1.4e-14 2.6e-14 3.1e-14 3.3e-14 4.4e-14 5.7e-14 6.5e-14 6.3e-14 5.5e-14 6.1e-14 6.7e-14 6.8e-14 6.4e-14 5.9e-14 5.9e-14 6.4e-14 6.9e-14 7.3e-14 7.5e-14 7.4e-14
+   overall 7.53e-14; norm 0.999999999999696; discarded 9.7e-15; sector 14.7s mps 1.3s; final total n=2.999999999999
+sector k=3 wires=[1, 62, 119] dim=280840: max |n_sector - n_mps| per step: 1.4e-14 2.7e-14 3.6e-14 4.1e-14 4.1e-14 4.4e-14 5.6e-14 6.6e-14 7.0e-14 6.8e-14 7.7e-14 8.5e-14 9.0e-14 1.0e-13 1.0e-13 9.1e-14 1.1e-13 1.3e-13 1.4e-13 1.3e-13
+   overall 1.37e-13; norm 0.999999999999702; discarded 0.0e+00; sector 13.4s mps 0.9s; final total n=2.999999999999
+sector k=3 wires=[58, 59, 60] dim=280840: max |n_sector - n_mps| per step: 1.4e-14 2.7e-14 3.6e-14 4.2e-14 4.5e-14 4.4e-14 5.2e-14 6.0e-14 6.2e-14 6.0e-14 5.5e-14 5.6e-14 5.8e-14 6.3e-14 7.1e-14 7.6e-14 7.6e-14 7.0e-14 6.2e-14 6.5e-14
+   overall 7.61e-14; norm 0.999999999999701; discarded 1.1e-14; sector 13.0s mps 1.3s; final total n=2.999999999999
+sector k=3 wires=[57, 59, 61] dim=280840: max |n_sector - n_mps| per step: 2.7e-15 5.0e-15 6.1e-15 6.3e-15 9.4e-15 1.2e-14 1.2e-14 1.1e-14 8.8e-15 1.0e-14 1.2e-14 1.3e-14 1.2e-14 9.7e-15 9.9e-15 1.1e-14 1.2e-14 1.3e-14 1.2e-14 1.2e-14
+   overall 1.31e-14; norm 0.999999999999944; discarded 7.2e-15; sector 12.8s mps 1.3s; final total n=3.000000000000

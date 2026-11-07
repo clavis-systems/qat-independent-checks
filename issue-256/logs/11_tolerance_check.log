@@ -1,0 +1,7 @@
+off-diagonal magnitudes tested: 21573
+  largest value treated as diagonal (<1e-14): 2.3534781956423715e-16
+  smallest value treated as non-diagonal   : 0.14943813247359913
+identity tests on diagonal products: 0
+  largest |d0-d1| treated as identity (<1e-13): None
+  smallest |d0-d1| treated as non-identity  : None
+final ops 554

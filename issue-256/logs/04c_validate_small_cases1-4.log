@@ -1,0 +1,52 @@
+python 3.13.18 numpy 2.5.4 cotengra 0.8.3 opt_einsum 3.4.0 qiskit 2.6.2
+qiskit cross-parse: 4756 gates, identical to own parser: True
+
+[ball(O),k=10 [trivial]] Q=[50, 51, 52, 53, 55, 59, 71, 72, 73, 75] obs=[52, 59, 72] gates=952
+  own dense      f = 0.999999999999972   (6.6s)
+  qiskit         f = 0.999999999999972   (12.0s, 952 gates)
+  tn_full        f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_sliced      f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_oe          f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_lc_only     f = 0.999999999999965 +2.1e-16j  |dev|=7.4e-15  (21.2s; ops 218, tensors 436, slices 0, log2 flops 14.93)
+  tn_peep_only   f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14  (0.0s; ops 0, tensors 0, slices None, log2 flops None)
+  tn_raw         f = 0.999999999999962 -1.6e-16j  |dev|=1.0e-14  (21.1s; ops 232, tensors 464, slices 0, log2 flops 14.92)
+  max |dev| this case 2.80e-14
+
+[O52+S39,50+P] Q=[33, 38, 39, 48, 49, 50, 51, 52, 53, 54] obs=[52] gates=1016
+  own dense      f = 0.944575054711480   (5.4s)
+  qiskit         f = 0.944575054711480   (12.9s, 1016 gates)
+  tn_full        f = 0.944575054711473 +2.1e-17j  |dev|=7.0e-15  (56.6s; ops 180, tensors 360, slices 0, log2 flops 18.26)
+  tn_sliced      f = 0.944575054711473 +7.9e-17j  |dev|=6.9e-15  (55.9s; ops 180, tensors 360, slices 6, log2 flops 22.09)
+  tn_oe          f = 0.944575054711473 +1.0e-17j  |dev|=7.4e-15  (0.3s; ops 180, tensors 360, slices 0, log2 flops 21.29)
+  tn_lc_only     f = 0.944575054711474 -1.3e-16j  |dev|=6.7e-15  (22.4s; ops 266, tensors 532, slices 0, log2 flops 27.63)
+  tn_peep_only   f = 0.944575054711465 +5.0e-16j  |dev|=1.5e-14  (21.1s; ops 222, tensors 444, slices 0, log2 flops 20.04)
+  tn_raw         f = 0.944575054711466 -9.6e-17j  |dev|=1.4e-14  (23.9s; ops 308, tensors 616, slices 0, log2 flops 29.42)
+  max |dev| this case 1.52e-14
+
+[O52,72+S50,69,70+P] Q=[49, 50, 51, 52, 58, 69, 70, 71, 72, 73] obs=[52, 72] gates=977
+  own dense      f = 0.983432882105601   (5.5s)
+  qiskit         f = 0.983432882105601   (12.4s, 977 gates)
+  tn_full        f = 0.983432882105593 -8.3e-17j  |dev|=8.1e-15  (42.1s; ops 147, tensors 294, slices 0, log2 flops 18.07)
+  tn_sliced      f = 0.983432882105592 +1.4e-16j  |dev|=8.5e-15  (43.6s; ops 147, tensors 294, slices 6, log2 flops 20.66)
+  tn_oe          f = 0.983432882105592 -6.8e-17j  |dev|=8.7e-15  (0.2s; ops 147, tensors 294, slices 0, log2 flops 18.89)
+  tn_lc_only     f = 0.983432882105592 +2.1e-16j  |dev|=8.6e-15  (22.7s; ops 277, tensors 554, slices 0, log2 flops 29.4)
+  tn_peep_only   f = 0.983432882105588 +2.8e-17j  |dev|=1.3e-14  (21.0s; ops 175, tensors 350, slices 0, log2 flops 19.64)
+  tn_raw         f = 0.983432882105588 -2.9e-16j  |dev|=1.3e-14  (22.1s; ops 305, tensors 610, slices 0, log2 flops 28.15)
+  max |dev| this case 1.33e-14
+
+[O52,59+S39,50+P] Q=[33, 34, 39, 50, 51, 52, 53, 54, 55, 59] obs=[52, 59] gates=978
+  own dense      f = 0.964972831467107   (4.7s)
+  qiskit         f = 0.964972831467107   (12.0s, 978 gates)
+  tn_full        f = 0.964972831467100 -1.9e-16j  |dev|=6.7e-15  (34.4s; ops 120, tensors 240, slices 0, log2 flops 17.86)
+  tn_sliced      f = 0.964972831467101 +4.6e-17j  |dev|=6.2e-15  (35.8s; ops 120, tensors 240, slices 4, log2 flops 19.3)
+  tn_oe          f = 0.964972831467100 -6.6e-17j  |dev|=6.8e-15  (0.2s; ops 120, tensors 240, slices 0, log2 flops 18.71)
+  tn_lc_only     f = 0.964972831467096 -1.8e-16j  |dev|=1.1e-14  (24.0s; ops 278, tensors 556, slices 0, log2 flops 28.51)
+  tn_peep_only   f = 0.964972831467091 +4.3e-17j  |dev|=1.6e-14  (20.7s; ops 148, tensors 296, slices 0, log2 flops 17.71)
+  tn_raw         f = 0.964972831467093 -4.1e-16j  |dev|=1.3e-14  (22.5s; ops 306, tensors 612, slices 0, log2 flops 27.83)
+  max |dev| this case 1.58e-14
+
+[O72+S57,67-70+P] Q=[47, 48, 57, 58, 67, 68, 69, 70, 71, 72] obs=[72] gates=942
+  own dense      f = 0.999579650501705   (5.6s)
+  qiskit         f = 0.999579650501705   (12.4s, 942 gates)
+  tn_full        f = 0.999579650501703 +3.9e-16j  |dev|=2.3e-15  (20.4s; ops 98, tensors 196, slices 0, log2 flops 13.29)
+Terminated

@@ -1,0 +1,6 @@
+sub seed 72 nq=10 gates=450 cz=54 O=[0, 4, 2] dense f=0.999999999999972+0j  TN(noprune)=0.999999999999959 TN(prune)=0.999999999999999  maxerr=2.75e-14  (dense 98.8s)
+sub seed 37 nq=10 gates=450 cz=54 O=[0, 4, 2] dense f=0.849206133992397+0j  TN(noprune)=0.849206133992386 TN(prune)=0.849206133992392  maxerr=1.13e-14  (dense 107.2s)
+sub seed 14 nq=9 gates=390 cz=48 O=[0, 4, 8] dense f=0.871154894105983+0j  TN(noprune)=0.871154894105974 TN(prune)=0.871154894105978  maxerr=9.53e-15  (dense 76.0s)
+sub seed 59 nq=10 gates=450 cz=54 O=[0, 8, 5] dense f=0.983307917325244+0j  TN(noprune)=0.983307917325234 TN(prune)=0.983307917325248  maxerr=1.01e-14  (dense 98.5s)
+sub seed 45 nq=10 gates=450 cz=54 O=[0, 5, 9] dense f=0.866050758142572+0j  TN(noprune)=0.866050758142560 TN(prune)=0.866050758142565  maxerr=1.29e-14  (dense 101.3s)
+WORST abs error 2.753361280562021e-14

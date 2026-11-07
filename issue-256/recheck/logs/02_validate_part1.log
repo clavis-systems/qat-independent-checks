@@ -1,0 +1,4 @@
+sub seed 52 nq=8 gates=384 cz=42 O=[0, 4, 6] dense f=0.999999999999975+0j  TN(noprune)=0.999999999999966 TN(prune)=0.999999999999999  maxerr=2.40e-14  (dense 3.8s)
+sub seed 52 nq=10 gates=486 cz=54 O=[0, 5, 4] dense f=0.938119846422338+0j  TN(noprune)=0.938119846422327 TN(prune)=0.938119846422337  maxerr=1.05e-14  (dense 106.2s)
+sub seed 11 nq=9 gates=408 cz=48 O=[0, 7, 6] dense f=0.891355693239135+0j  TN(noprune)=0.891355693239126 TN(prune)=0.891355693239133  maxerr=9.55e-15  (dense 78.9s)
+sub seed 26 nq=10 gates=450 cz=54 O=[0, 4, 9] dense f=0.838326328530124+0j  TN(noprune)=0.838326328530112 TN(prune)=0.838326328530115  maxerr=1.20e-14  (dense 102.9s)

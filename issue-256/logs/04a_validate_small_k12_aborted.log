@@ -1,0 +1,14 @@
+python 3.13.18 numpy 2.5.4 cotengra 0.8.3 opt_einsum 3.4.0 qiskit 2.6.2
+qiskit cross-parse: 4756 gates, identical to own parser: True
+
+[ball(O),k=10 [trivial]] Q=[50, 51, 52, 53, 55, 59, 71, 72, 73, 75] obs=[52, 59, 72] gates=952 (qiskit 952)
+  own dense  f = 0.999999999999972   (7.7s)
+  qiskit     f = 0.999999999999972   (23.8s)
+  tn_full    f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14
+  tn_raw     f = 0.999999999999962 +1.2e-16j  |dev|=1.0e-14
+  tn_sliced  f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14
+  tn_oe      f = 1.000000000000000 +0.0e+00j  |dev|=2.8e-14
+  tn_full stats: {'n_gates': 952, 'n_merged': 232, 'n_peephole': 0, 'n_lightcone': 0, 'n_cz': 0, 'qubits': [], 'k': 3, 'n_tensors': 0, 'n_indices': 0, 'scalar': (8+0j), 'total_time_s': 0.01, 'note': 'network reduced to a scalar'}
+  tn_raw stats: ops 232 tensors 464; tn_sliced: n_sliced=None
+  max |dev| this case 2.80e-14
+Terminated

@@ -1,0 +1,5 @@
+window a=26 W=8 (16 qubits, 3840 gates): max |n_dense - n_mps| per step: 1.8e-15 7.7e-15 1.1e-14 1.3e-14 1.7e-14 1.9e-14 2.5e-14 2.9e-14 2.8e-14 3.0e-14 3.2e-14 3.5e-14 3.8e-14 4.0e-14 4.4e-14 4.5e-14 4.9e-14 5.0e-14 5.3e-14 5.5e-14
+   overall max dev 5.51e-14; discarded 6.4e-15; dense 2.5s mps 1.2s
+   step-20 window occupations (dense) first rows: [[0.350676, 0.350676], [0.509853, 0.509853], [0.468782, 0.468782]]
+sector k=3 wires=[58, 59, 60] dim=280840: max |n_sector - n_mps| per step: 1.4e-14 2.7e-14 3.6e-14 4.2e-14 4.5e-14 4.4e-14 5.2e-14 5.9e-14 6.2e-14 6.0e-14 5.5e-14 5.7e-14 5.9e-14 6.2e-14 7.1e-14 7.6e-14 7.5e-14 7.1e-14 6.2e-14 6.5e-14
+   overall 7.56e-14; norm 0.999999999999701; discarded 7.9e-15; sector 20.5s mps 2.6s; final total n=2.999999999999

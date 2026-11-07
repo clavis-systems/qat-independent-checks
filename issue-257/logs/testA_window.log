@@ -1,0 +1,15 @@
+window a=0 W=8 (16 qubits, 3680 gates): max |n_dense - n_mps| per step: 5.3e-15 8.2e-15 1.4e-14 1.9e-14 1.9e-14 1.9e-14 2.0e-14 2.1e-14 2.4e-14 2.4e-14 2.7e-14 3.0e-14 3.4e-14 3.6e-14 3.6e-14 3.7e-14 3.7e-14 3.9e-14 4.1e-14 4.3e-14
+   overall max dev 4.29e-14; discarded 5.7e-15; dense 1.5s mps 0.4s
+   step-20 window occupations (dense) first rows: [[0.46198, 0.46198], [0.55483, 0.55483], [0.485303, 0.485303]]
+window a=52 W=8 (16 qubits, 3840 gates): max |n_dense - n_mps| per step: 5.3e-15 8.7e-15 1.5e-14 1.9e-14 2.0e-14 2.0e-14 2.0e-14 2.3e-14 2.6e-14 2.5e-14 2.8e-14 3.3e-14 3.7e-14 3.8e-14 3.8e-14 4.0e-14 4.0e-14 4.3e-14 4.4e-14 4.7e-14
+   overall max dev 4.65e-14; discarded 6.6e-15; dense 1.4s mps 0.5s
+   step-20 window occupations (dense) first rows: [[0.46198, 0.46198], [0.55483, 0.55483], [0.485303, 0.485303]]
+window a=25 W=10 (20 qubits, 4840 gates): max |n_dense - n_mps| per step: 3.4e-15 8.1e-15 1.6e-14 1.4e-14 2.6e-14 3.0e-14 2.6e-14 2.7e-14 2.7e-14 2.9e-14 2.9e-14 3.7e-14 4.3e-14 4.2e-14 4.5e-14 5.0e-14 4.8e-14 5.0e-14 5.3e-14 5.7e-14
+   overall max dev 5.70e-14; discarded 6.3e-15; dense 26.4s mps 2.8s
+   step-20 window occupations (dense) first rows: [[0.516829, 0.516829], [0.481248, 0.481248], [0.522088, 0.522088]]
+window a=24 W=8 (16 qubits, 3840 gates): max |n_dense - n_mps| per step: 5.3e-15 8.7e-15 1.5e-14 1.9e-14 2.0e-14 2.0e-14 2.0e-14 2.3e-14 2.6e-14 2.5e-14 2.8e-14 3.3e-14 3.7e-14 3.8e-14 3.8e-14 4.0e-14 4.0e-14 4.3e-14 4.4e-14 4.7e-14
+   overall max dev 4.65e-14; discarded 6.6e-15; dense 1.4s mps 0.4s
+   step-20 window occupations (dense) first rows: [[0.46198, 0.46198], [0.55483, 0.55483], [0.485303, 0.485303]]
+window a=26 W=8 (16 qubits, 3840 gates): max |n_dense - n_mps| per step: 2.9e-15 7.5e-15 1.0e-14 1.2e-14 1.5e-14 1.7e-14 2.3e-14 2.2e-14 2.4e-14 2.7e-14 2.9e-14 3.1e-14 3.5e-14 3.8e-14 4.4e-14 4.3e-14 4.5e-14 4.8e-14 5.2e-14 5.3e-14
+   overall max dev 5.31e-14; discarded 5.3e-15; dense 1.4s mps 0.4s
+   step-20 window occupations (dense) first rows: [[0.9097, 0.314746], [0.518534, 0.27205], [0.758982, 0.711043]]

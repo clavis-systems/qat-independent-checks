@@ -1,0 +1,3 @@
+sha256 4aae5089337253921cd70df470dc52b5243e0c8410b36a6bcbb43497db48db29
+register 156 used qubits 49 gates 4756 {'rx': 1296, 'rz': 2616, 'cz': 648, 'sdg': 49, 'sxdg': 49, 'sx': 49, 's': 49}
+barriers 73

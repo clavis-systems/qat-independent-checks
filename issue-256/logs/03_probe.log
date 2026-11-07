@@ -1,0 +1,14 @@
+L=1 peephole=False lightcone=False: gates 1732 merged 574 after_peephole 574 after_lc 574 (cz 216) qubits 49 tensors 1148 indices 716 | greedy path: log2 flops 25.7, log2 max 19.0 (32s)
+L=1 peephole=False lightcone=True: gates 1732 merged 574 after_peephole 574 after_lc 154 (cz 74) qubits 23 tensors 308 indices 161 | greedy path: log2 flops 14.0, log2 max 8.0 (5s)
+L=1 peephole=True lightcone=True: gates 1732 merged 574 after_peephole 84 after_lc 0 (cz 0) qubits 3 tensors 0 indices 0
+   qubits in final network: []
+L=2 peephole=False lightcone=False: gates 3244 merged 1222 after_peephole 1222 after_lc 1222 (cz 432) qubits 49 tensors 2444 indices 1580 | greedy path: log2 flops 79.4, log2 max 73.0 (32s)
+L=2 peephole=False lightcone=True: gates 3244 merged 1222 after_peephole 1222 after_lc 536 (cz 212) qubits 38 tensors 1072 indices 649 | greedy path: log2 flops 41.3, log2 max 35.0 (31s)
+L=2 peephole=True lightcone=True: gates 3244 merged 1222 after_peephole 502 after_lc 110 (cz 46) qubits 18 tensors 220 indices 129 | greedy path: log2 flops 13.1, log2 max 7.0 (4s)
+   qubits in final network: [28, 29, 31, 32, 33, 34, 38, 39, 47, 48, 49, 50, 51, 52, 53, 54]
+L=3 peephole=False lightcone=False: gates 4756 merged 1870 after_peephole 1870 after_lc 1870 (cz 648) qubits 49 tensors 3740 indices 2444 | greedy path: log2 flops 146.3, log2 max 139.0 (41s)
+L=3 peephole=False lightcone=True: gates 4756 merged 1870 after_peephole 1870 after_lc 1172 (cz 436) qubits 49 tensors 2344 indices 1472 | greedy path: log2 flops 83.5, log2 max 78.0 (50s)
+L=3 peephole=True lightcone=True: gates 4756 merged 1870 after_peephole 1132 after_lc 554 (cz 214) qubits 44 tensors 1108 indices 682 | greedy path: log2 flops 36.6, log2 max 31.0 (39s)
+   qubits in final network: [10, 11, 12, 13, 17, 18, 19, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+
+[exited with code 0]

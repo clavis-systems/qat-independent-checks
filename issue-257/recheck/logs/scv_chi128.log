@@ -1,0 +1,42 @@
+occupied qubits [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119]
+09:12:06 /data/SU2_T20_SCV.qasm chi=128 ops/step=[296, 296, 296]
+09:12:06 step 1 disc_cum=0.000e+00 maxbond=16 t=0s
+09:12:06 step 2 disc_cum=1.792e-12 maxbond=47 t=0s
+09:12:08 step 3 disc_cum=4.141e-12 maxbond=76 t=2s
+09:12:13 step 4 disc_cum=6.519e-12 maxbond=120 t=7s
+09:12:23 step 5 disc_cum=5.344e-11 maxbond=128 t=17s
+09:12:35 step 6 disc_cum=4.496e-09 maxbond=128 t=30s
+09:12:48 step 7 disc_cum=1.715e-07 maxbond=128 t=42s
+09:12:59 step 8 disc_cum=3.672e-06 maxbond=128 t=54s
+09:13:11 step 9 disc_cum=4.956e-05 maxbond=128 t=66s
+09:13:24 step 10 disc_cum=4.661e-04 maxbond=128 t=78s
+09:13:35 step 11 disc_cum=3.117e-03 maxbond=128 t=90s
+09:13:48 step 12 disc_cum=1.552e-02 maxbond=128 t=102s
+09:14:14 step 13 disc_cum=5.757e-02 maxbond=128 t=128s
+09:14:44 step 14 disc_cum=1.597e-01 maxbond=128 t=158s
+09:15:24 step 15 disc_cum=3.494e-01 maxbond=128 t=198s
+09:15:54 step 16 disc_cum=6.447e-01 maxbond=128 t=228s
+09:16:29 step 17 disc_cum=1.039e+00 maxbond=128 t=263s
+09:17:03 step 18 disc_cum=1.503e+00 maxbond=128 t=297s
+09:17:37 step 19 disc_cum=2.009e+00 maxbond=128 t=331s
+09:18:10 step 20 disc_cum=2.446e+00 maxbond=128 t=364s
+1 5.154594 60.000000 disc=0.00e+00 bond=16
+2 18.908180 60.000000 disc=1.79e-12 bond=47
+3 36.931147 60.000000 disc=4.14e-12 bond=76
+4 54.161462 60.000000 disc=6.52e-12 bond=120
+5 66.669189 60.000000 disc=5.34e-11 bond=128
+6 72.651646 60.000000 disc=4.50e-09 bond=128
+7 72.426263 60.000000 disc=1.72e-07 bond=128
+8 67.796423 60.000000 disc=3.67e-06 bond=128
+9 61.219708 60.000000 disc=4.96e-05 bond=128
+10 55.027977 60.000000 disc=4.66e-04 bond=128
+11 50.825874 60.000000 disc=3.12e-03 bond=128
+12 49.184730 60.000000 disc=1.55e-02 bond=128
+13 49.723117 60.000000 disc=5.76e-02 bond=128
+14 51.534379 60.000000 disc=1.60e-01 bond=128
+15 53.707970 60.000000 disc=3.49e-01 bond=128
+16 55.655956 60.000000 disc=6.45e-01 bond=128
+17 57.166562 60.000000 disc=1.04e+00 bond=128
+18 58.244687 60.000000 disc=1.50e+00 bond=128
+19 58.893833 60.000000 disc=2.01e+00 bond=128
+20 59.072405 60.000000 disc=2.45e+00 bond=128

@@ -1,0 +1,32 @@
+=== start 2026-11-06T21:56:59Z chi=3072
+{"qasm": "/d300/SU2_T20_MID.qasm", "sha256": "793e62350fe2f127a741f679a158810dfeceafc56f62bd4c257ce6926786e9b2", "chi": 3072, "python": "3.13.18 (main, Nov  5 2026, 07:59:38) [GCC 14.2.0]", "numpy": "2.5.4", "scipy": "1.18.1", "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.41"}
+prep 0.7s; L=60; two-site ops per step=[59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59]; conservation/unitarity worst=1.41e-17
+final layout: output wires (2r,2r+1) hold logical site r: True
+step 0 N=4.00000000 Q=60.00000000
+step  1 N=8.80526542 Q=60.000000000000 disc=0.000e+00 maxtr=0.00e+00 maxbond=16 Smax=0.214 t=0.0s tot=0.7s peakRSS=69MB mps=0MB
+step  2 N=21.62338481 Q=60.000000000000 disc=2.331e-15 maxtr=3.33e-16 maxbond=119 Smax=0.585 t=0.2s tot=0.9s peakRSS=72MB mps=1MB
+step  3 N=38.41129658 Q=60.000000000000 disc=6.106e-15 maxtr=3.33e-16 maxbond=248 Smax=0.944 t=0.9s tot=1.8s peakRSS=86MB mps=9MB
+step  4 N=54.44792293 Q=60.000000000000 disc=1.243e-14 maxtr=4.44e-16 maxbond=457 Smax=1.210 t=5.2s tot=7.1s peakRSS=115MB mps=28MB
+step  5 N=66.07922895 Q=60.000000000000 disc=1.854e-14 maxtr=4.44e-16 maxbond=674 Smax=1.391 t=10.1s tot=17.5s peakRSS=175MB mps=64MB
+step  6 N=71.64365101 Q=60.000000000000 disc=2.431e-14 maxtr=4.44e-16 maxbond=1050 Smax=1.664 t=15.1s tot=33.2s peakRSS=305MB mps=148MB
+step  7 N=71.45277756 Q=60.000000000000 disc=3.053e-14 maxtr=5.55e-16 maxbond=1546 Smax=1.943 t=26.6s tot=61.3s peakRSS=559MB mps=311MB
+step  8 N=67.18609241 Q=60.000000000000 disc=3.542e-14 maxtr=5.55e-16 maxbond=2289 Smax=2.186 t=61.8s tot=126.2s peakRSS=1080MB mps=641MB
+step  9 N=61.11226543 Q=60.000000000000 disc=4.696e-14 maxtr=5.55e-16 maxbond=3072 Smax=2.415 t=116.2s tot=248.5s peakRSS=1921MB mps=1162MB
+step 10 N=55.37390198 Q=60.000000000000 disc=5.129e-14 maxtr=5.55e-16 maxbond=3072 Smax=2.634 t=200.0s tot=459.0s peakRSS=2227MB mps=1322MB
+step 11 N=51.44685172 Q=60.000000000000 disc=5.718e-14 maxtr=6.66e-16 maxbond=3072 Smax=2.858 t=194.9s tot=667.0s peakRSS=2404MB mps=1321MB
+step 12 N=49.87158596 Q=60.000000000000 disc=6.040e-14 maxtr=6.66e-16 maxbond=3072 Smax=3.087 t=162.6s tot=839.8s peakRSS=2422MB mps=1326MB
+step 13 N=50.32906825 Q=60.000000000000 disc=7.916e-14 maxtr=1.33e-15 maxbond=3072 Smax=3.305 t=175.5s tot=1026.2s peakRSS=2434MB mps=1334MB
+step 14 N=52.00758401 Q=60.000000000000 disc=7.023e-13 maxtr=2.73e-14 maxbond=3072 Smax=3.503 t=159.6s tot=1195.7s peakRSS=2479MB mps=1337MB
+=== start 2026-11-07T08:33:56Z chi=3072
+{"qasm": "/d300/SU2_T20_MID.qasm", "sha256": "793e62350fe2f127a741f679a158810dfeceafc56f62bd4c257ce6926786e9b2", "chi": 3072, "python": "3.13.18 (main, Nov  5 2026, 07:59:38) [GCC 14.2.0]", "numpy": "2.5.4", "scipy": "1.18.1", "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.41"}
+prep 0.6s; L=60; two-site ops per step=[59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59]; conservation/unitarity worst=1.41e-17
+final layout: output wires (2r,2r+1) hold logical site r: True
+step 0 N=4.00000000 Q=60.00000000
+resumed from checkpoint after step 14 (prior compute 1195.7s)
+step 15 N=54.05500487 Q=60.000000000000 disc=1.606e-11 maxtr=6.56e-13 maxbond=3072 Smax=3.716 t=204.9s tot=1416.8s peakRSS=2195MB mps=1346MB
+step 16 N=55.88232011 Q=60.000000000000 disc=3.021e-10 maxtr=1.22e-11 maxbond=3072 Smax=3.932 t=527.0s tot=1957.4s peakRSS=2426MB mps=1351MB
+step 17 N=57.22022838 Q=60.000000000000 disc=4.244e-09 maxtr=1.62e-10 maxbond=3072 Smax=4.156 t=456.9s tot=2429.2s peakRSS=2559MB mps=1355MB
+step 18 N=58.00948247 Q=60.000000000000 disc=4.583e-08 maxtr=1.62e-09 maxbond=3072 Smax=4.381 t=146.4s tot=2586.6s peakRSS=2602MB mps=1357MB
+step 19 N=58.27527242 Q=60.000000000000 disc=3.979e-07 maxtr=1.30e-08 maxbond=3072 Smax=4.600 t=140.1s tot=2736.8s peakRSS=2623MB mps=1356MB
+step 20 N=58.07004606 Q=60.000000000000 disc=2.938e-06 maxtr=9.06e-08 maxbond=3072 Smax=4.810 t=132.4s tot=2879.5s peakRSS=2635MB mps=1356MB
+done; this process 1693.6s; total compute incl. resumed parts 2889.3s
