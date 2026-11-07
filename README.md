@@ -18,8 +18,8 @@ not affiliated with the tracker or with the submitters.
 | [#240](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/240) | 49 qubits | **confirmed from both sides** within about 3e-13, assuming the iterative eigensolvers found each patch minimum |
 | [#248](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/248) | [2Fe-2S] (30e, 20o) | **first step confirmed**; the final value was not re-run |
 | [#239](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/239) | [2Fe-2S] (30e, 20o) | **consistent at the level of about 10 µEh**; nothing lower than the issue value was found |
-| [#256](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/256) | Loschmidt echo 49x648 | **confirmed to all 12 digits** (f = 0.822488318196); see [`issue-256/`](issue-256/README.md) |
-| [#257](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/257) | SU(2) hadron dynamics, l_i = 300 | **confirmed**: n_f(20) = 0.10285 ± 0.00002; see [`issue-257/`](issue-257/README.md) |
+| [#256](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/256) | Loschmidt echo 49x648 | **reproduced to all 12 digits** (f = 0.822488318196) by two codes that share one exact simplification; see [`issue-256/`](issue-256/README.md) |
+| [#257](https://github.com/quantum-advantage-tracker/quantum-advantage-tracker.github.io/issues/257) | SU(2) hadron dynamics, l_i = 300 | **reproduced**: n_f(20) = 0.10285 (estimated uncertainty 0.00002); a second method agrees up to step 10 of 20; see [`issue-257/`](issue-257/README.md) |
 
 #256 and #257 were added on 7 Nov 2026 and each has its own folder, README, code, logs and re-check. The rest of
 this page is about #239, #240 and #248.
